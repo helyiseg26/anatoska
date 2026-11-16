@@ -1,206 +1,188 @@
 window.TETELEK.push({
     num: 27,
     id: "tetel-27",
-    title: "27. Tétel: Regio colli mediana. A pajzsmirigy.",
-    shortName: "Regio colli mediana és a pajzsmirigy",
+    title: "27. Tétel: Trigonum submandibulare et submentale. Glandula submandibularis.",
+    shortName: "Trigonum submandibulare/submentale, Gl. submandibularis",
     summaryHtml: `
         <ul>
-            <li><strong>Regio colli mediana (hatszögletű elülső-középső nyaki tájék):</strong>
+            <li><strong>Trigonum submandibulare (állkapocs alatti háromszög):</strong>
                 <ul>
-                    <li><em>Határai &amp; Bőrbeidegzése:</em> Felül <strong>os hyoideum</strong>, alul <strong>incisura jugularis sterni</strong>, lateralisan felül <strong>m. omohyoideus venter superior</strong>, lateralisan alul <strong>m. sternocleidomastoideus (SCM)</strong> elülső széle &bull; Bőridege: <strong>n. transversus colli</strong> (&larr; <em>plexus cervicalis</em>).</li>
-                    <li><em>Subcutan &amp; Fascialis rétegek:</em> Bőr &rarr; <em>platysma</em> (alul kihagyja a középvonalat) &rarr; <strong>v. jugularis anterior</strong> (az <em>incisura jugularis</em> felett ívben anastomizálnak = <strong>arcus venosus jugularis</strong> a <em>spatium suprasternale</em>-ban, majd a <em>v. jugularis externa</em>-ba vagy <em>v. subclavia</em>-ba ömlenek) &rarr; <em>lamina superficialis</em> (alul kettéválva képezi a zsíros <em>spatium suprasternale</em>-t!) &rarr; <em>lamina pretrachealis</em> (behüvelyezi az infrahyoid izmokat és a pajzsmirigy tokját adja) &rarr; <em>lamina prevertebralis</em> (mögötte <em>m. longus colli et capitis</em>).</li>
-                    <li><em>Tájék izmai &amp; Beidegzés:</em> Felületes réteg: <strong>m. sternohyoideus</strong> + <strong>m. omohyoideus venter sup.</strong>; mély réteg: <strong>m. sternothyroideus</strong> + <strong>m. thyrohyoideus</strong> (beidegzés: <em>ansa cervicalis [profunda]</em>, kivéve <em>m. thyrohyoideus</em> = C1 / XII.), plusz a pajzsmirigy felett a <strong>m. cricothyroideus</strong> (<em>n. laryngeus sup. r. ext.</em>) &bull; Működés: szájnyitás, ivás, hangadás, nyelés.</li>
-                    <li><em>Középvonali váz &amp; Mélyebb kapcsolódó struktúrák:</em> <em>Os hyoideum</em>, <em>membrana thyrohyoidea</em>, <em>cartilago thyroidea</em>, <em>membrana cricothyroidea</em> (közepén <strong>lig. cricothyroideum medianum / lig. conicum</strong> &rarr; conicotomia!), <em>cartilago cricoidea</em>, <em>membrana cricotracheale</em>, <em>trachea</em> &bull; Mögötte balra toltan <em>oesophagus</em>, a <em>sulcus tracheooesophageus</em>-ban felszálló <strong>n. laryngeus recurrens</strong> (jobb oldalt <em>a. subclavia dextra</em>, bal oldalt <em>arcus aortae</em> alatt kanyarodik vissza!), hátrébb <em>spatium retropharyngeum</em> és <em>truncus sympathicus pars cervicalis</em> (a <em>vagina carotica</em> mögött).</li>
+                    <li><em>Határai &amp; Aljzata:</em> Felül <strong>basis mandibulae</strong> (mandibula teste), alul elöl és hátul a <strong>m. digastricus mandibulae venter anterior et posterior</strong> (hátul csatlakozik a <em>m. stylohyoideus</em>); aljzata elöl <strong>m. mylohyoideus</strong>, hátrébb <strong>m. hyoglossus</strong>.</li>
+                    <li><em>5 fő áthaladó képlet:</em> (1) <strong>Glandula submandibularis</strong> (kitölti a háromszöget az elülső csúcs kivételével); (2) <strong>Ductus submandibularis</strong> (Wharton-vezeték); (3) <strong>A. et v. facialis</strong> (az <em>a. facialis</em> – az <em>a. carotis externa</em> 3. ága – mélyen a mirigy mögött/belső felszínében fut, a <em>v. facialis</em> felületesebben, a mirigy külső felszínén!); (4) <strong>N. lingualis (V/3) et n. hypoglossus (XII.)</strong> (a hátsó részből nyíló <em>sulcus lateralis linguae</em>-n át lépnek be a <em>regio sublingualis</em>-ba); (5) <strong>Nodi lymphoidei submandibulares</strong> (duzzanatuk bőrön át tapintható!).</li>
                 </ul>
             </li>
-            <li><strong>A pajzsmirigy (Glandula thyroidea):</strong>
+            <li><strong>Trigonum submentale (állcsúcs alatti páratlan háromszög):</strong>
                 <ul>
-                    <li><em>Alakja, helyzete &amp; Mellékpajzsmirigyek:</em> Kétlebenyes (<strong>lobus dexter et sinister</strong>), tömör, barnásvörös endokrin mirigy a gége és a trachea felső részének két oldalán; a <strong>2–4. trachealis porcgyűrű</strong> magasságában az <strong>isthmus glandulae thyroideae</strong> köti össze (hiányozhat, vagy felfelé indulhat belőle a <strong>lobus pyramidalis</strong>) &bull; A lebenyek hátsó felszínén ül az alsó és felső 2–2 <strong>glandula parathyroidea</strong> (mellékpajzsmirigy)!</li>
-                    <li><em>Tokjai &amp; Képletkapcsolatai (Sebészi klinikum!):</em> Külső kötőszövetes tok (a <em>lamina pretrachealis</em> levált része; e között és a belső <em>capsula fibrosa</em> között futnak az erek és ülnek a mellékpajzsmirigyek!), elölről teljesen betakarja a <strong>m. sternothyroideus</strong> &bull; Oldalt érintkezik a <em>vagina carotica</em>-ban futó <strong>a. carotis communis</strong>-szal, hátul pedig a <strong>n. laryngeus recurrens</strong>-szel (sérülésveszély!).</li>
-                    <li><em>Vérellátása (2 artériapár + 3 vénapár):</em> Artériák: <strong>a. thyroidea superior</strong> (&larr; <em>a. carotis externa</em>, felülről, leadja az <em>a. laryngea sup.</em>-t) + <strong>a. thyroidea inferior</strong> (&larr; <em>truncus thyrocervicalis</em> &larr; <em>a. subclavia</em>, a <em>vagina carotica</em> mögött medial felé hajolva, leadja az <em>a. laryngea inf.</em>-t; kereszteződik a <em>n. laryngeus recurrens</em>-szel!) &bull; Vénák: <em>vv. thyroideae superiores et mediae</em> (&rarr; <em>v. jugularis int.</em>), valamint elöl a trachea előtt a <strong>plexus thyroideus impar</strong> &rarr; páratlan <strong>v. thyroidea ima</strong> és kétoldalt a <strong>vv. thyroideae inferiores</strong> (&rarr; <em>v. brachiocephalica dextra et sinistra</em>).</li>
+                    <li><em>Határai &amp; Aljzata:</em> Alul <strong>corpus ossis hyoidei</strong> (nyelvcsont teste), kétoldalt a két <strong>m. digastricus mandibulae venter anterior</strong>, aljzata a <strong>m. mylohyoideus</strong> (<em>raphe mylohyoidea</em>).</li>
+                    <li><em>Tartalma:</em> <strong>Nodi lymphoidei submentales</strong> (alsó metszőfogak, alsó ajak közepe, állcsúcs, nyelvcsúcs nyirokelvezetése).</li>
+                </ul>
+            </li>
+            <li><strong>Glandula submandibularis (állkapocs alatti nyálmirigy):</strong>
+                <ul>
+                    <li><em>Felépítése &amp; Topográfiája:</em> <strong>7–8 g</strong> tömegű, kötőszöveti sövényekkel lebenykékre osztott kevert (seromucinosus, dominálóan serosus) nyálmirigy; belső felszíne a <em>m. mylohyoideus</em>-szal és <em>m. hyoglossus</em>-szal érintkezik, külső felszínét a <em>lamina superficialis fasciae cervicalis</em> fedi; hátsó-belső felszínébe mélyen beleássa magát az <strong>a. facialis</strong> (szinte két lebenyre osztva), külső felszínén fut lefelé a <strong>v. facialis</strong>.</li>
+                    <li><em>Kivezetőcsöve (Ductus submandibularis):</em> A medialis felszínről ered, hátrafelé haladva horogszerűen megkerüli a <em>m. mylohyoideus</em> szabad hátsó szélét &rarr; belép a <strong>sulcus lateralis linguae</strong>-ba &rarr; a <em>m. mylohyoideus</em> belső felszínén kb. <strong>4 cm</strong> lefutás után (a <em>n. lingualis</em> kétszer keresztezi!) nyílik a szájüregbe a <strong>caruncula sublingualis</strong>-on át.</li>
+                    <li><em>Secretomotoros beidegzése:</em> Híd: <strong>nucleus salivatorius superior</strong> (pregangl. VM) &rarr; <strong>n. facialis (VII.) &rarr; chorda tympani</strong> &rarr; <strong>n. lingualis (V/3)</strong> &rarr; <strong>ganglion submandibulare</strong> (átkapcsolás!) &rarr; posztganglionaris rostok a <em>n. lingualis</em> közvetítésével (illetve közvetlen ágakkal) érik el a mirigyet.</li>
                 </ul>
             </li>
         </ul>
     `,
     html: `
-        <h3>1. Regio colli mediana (Elülső-középső nyaki tájék)</h3>
-        <p>A <strong>regio colli mediana</strong> a nyak elülső felszínén elhelyezkedő, páratlan, <strong>hatszögletű terület</strong>, amely magában foglalja a nyelvcsont alatti izmokat, a gégét, a légcső nyaki szakaszát és a pajzsmirigyet. Bőrét a <em>plexus cervicalis</em> érző ága, a <strong>nervus transversus colli</strong> (C2–C3) idegzi be.</p>
-
-        <h4>A) Határai és rétegei (kívülről befelé)</h4>
+        <h3>1. Trigonum submandibulare (Állkapocs alatti háromszög)</h3>
+        <p>A <strong>trigonum submandibulare</strong> a nyak elülső-felső részének legfontosabb fogászati és szájsebészeti tájéka, amely a mandibula teste alatt foglal helyet.</p>
         <ul>
-            <li><strong>Határai (hatszög):</strong>
+            <li><strong>Határai:</strong>
                 <ul>
-                    <li><em>Felül:</em> A nyelvcsont teste (<strong>corpus ossis hyoidei</strong>).</li>
-                    <li><em>Alul:</em> A szegycsont felső bemetszése (<strong>incisura jugularis sterni</strong>).</li>
-                    <li><em>Lateralisan felül:</em> A kétoldali <strong>musculus omohyoideus venter superior</strong>-ja.</li>
-                    <li><em>Lateralisan alul:</em> A kétoldali <strong>musculus sternocleidomastoideus (SCM) elülső széle</strong>.</li>
+                    <li><em>Felül:</em> A mandibula testének alsó pereme (<strong>basis mandibulae</strong>).</li>
+                    <li><em>Alul és elöl:</em> A <strong>musculus digastricus mandibulae elülső hasa (venter anterior)</strong>.</li>
+                    <li><em>Alul és hátul:</em> A <strong>musculus digastricus mandibulae hátulsó hasa (venter posterior)</strong> (amelyhez hátul a <em>m. stylohyoideus</em> is csatlakozik).</li>
                 </ul>
             </li>
-            <li><strong>Subcutan és fascialis rétegek:</strong>
-                <ul>
-                    <li><em>1. Bőr és tela subcutanea (platysma):</em> A bőr alatti kötőszövetben mindkét oldalon a <strong>platysma</strong> található, amely azonban alul, a középvonal felé széttérve szabadon hagyja a tájék középső-alsó részét.</li>
-                    <li><em>2. Felületes vénák és a Spatium suprasternale:</em> A <em>platysma</em> és a <em>fascia cervicalis lamina superficialis</em>-a között kétoldalt egy-egy <strong>vena jugularis anterior</strong> száll lefelé. Ezek az <em>incisura jugularis</em> felett haránt ívben egymással anastomizálnak, létrehozva az <strong>arcus venosus jugularis</strong>-t, amely kétoldalt a <em>m. SCM</em> alsó tapadása mögött a <em>v. jugularis externa</em>-ba vagy közvetlenül a <em>v. subclavia</em>-ba torkollik (egyes egyénekben csak egy páratlan középvonali véna, a <em>v. mediana colli</em> található).
-                        <br>&bull; <strong>Spatium suprasternale (Burns-tér):</strong> Közvetlenül a <em>manubrium sterni</em> felett a <em>lamina superficialis</em> két lemezre válik (a szegycsont elülső és hátsó éléhez tapadva); a köztük keletkező zárt térséget zsíros kötőszövet és maga az <strong>arcus venosus jugularis</strong> tölti ki! (Tracheostomia / légcsőmetszés során e vénás ív átvágása erős vénás vérzést okozhat!)</li>
-                    <li><em>3. Nyaki fasciák 3 lemeze (a jegyzet kézzel írt összefoglalója alapján):</em>
-                        <br>&bull; <strong>Lamina superficialis fasciae cervicalis:</strong> Kettőzetével behüvelyezi a <em>m. sternocleidomastoideus</em>-t. A tájék legnagyobb részében (a középvonalban, az <em>os hyoideum</em> és az <em>incisura jugularis</em> között) szorosan összefekszik a mélyebb lemezzel (<em>linea alba colli</em>).
-                        <br>&bull; <strong>Lamina pretrachealis fasciae cervicalis:</strong> Külön rekeszekbe foglalja a nyelvcsont alatti izmokat, és mélyebb lemezével zárt kötőszövetes tokot képez a <strong>pajzsmirigy (glandula thyroidea)</strong> számára.
-                        <br>&bull; <strong>Lamina prevertebralis fasciae cervicalis:</strong> A legmélyebb lemez, amely mögött közvetlenül a nyakcsigolyák előtti mély nyakizmok (<strong>m. longus colli et m. longus capitis</strong>) találhatók.</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h4>B) A tájék izmai, középvonali váza és mélyebb kapcsolódó struktúrái</h4>
-        <ul>
-            <li><strong>A tájék izmai és motoros beidegzésük:</strong>
-                <ul>
-                    <li><em>Nyelvcsont alatti izmok (2 rétegben):</em> A felületesebb réteget a középvonal mentén elhelyezkedő <strong>m. sternohyoideus</strong> és a regio lateralis oldalának felső részét képező <strong>m. omohyoideus (venter superior)</strong> alkotja. Mélyebben, a középvonal két oldalán helyezkedik el a <strong>m. sternothyroideus</strong> és felfelé ennek folytatásában a <strong>m. thyrohyoideus</strong>. Ezekhez oldalról csatlakozik motoros idegük, az <strong>ansa cervicalis (profunda)</strong>, amely hosszú szakaszon a <em>vagina carotica</em> előtt halad lefelé (kivétel: <em>m. thyrohyoideus</em> &larr; C1 rostok a <em>n. hypoglossus</em> útján).</li>
-                    <li><em>Gége külső-elülső izma:</em> A <em>glandula thyroidea</em> felett és medialisan találjuk a <strong>m. cricothyroideus</strong>-t, amelyet a <strong>n. laryngeus superior (r. externus)</strong> lát el.</li>
-                    <li><em>Működésük:</em> A <em>m. cricothyroideus</em> kivételével egységes funkcionális csoportot alkotnak: részt vesznek a <strong>száj nyitásában</strong> (rögzítik a nyelvcsontot), az <strong>ivásban/nyelésben</strong> (visszahúzzák a gégét és a nyelvcsontot) és a <strong>hangadásban</strong> a nyelvcsont feletti izmokkal együttműködve.</li>
-                </ul>
-            </li>
-            <li><strong>Középvonali csontos-porcos-szalagos váz (fentről lefelé – tapintási sorrend!):</strong>
-                <br>1. <strong>Os hyoideum</strong> (nyelvcsont teste és nagy szarvai)
-                <br>2. <strong>Membrana thyrohyoidea</strong> (közepén a <em>ligamentum thyrohyoideum medianum</em>)
-                <br>3. <strong>Cartilago thyroidea</strong> (<em>incisura thyroidea superior</em> és <em>prominentia laryngea</em>)
-                <br>4. <strong>Membrana cricothyroidea</strong> (közepén a <strong>ligamentum cricothyroideum medianum, avagy ligamentum conicum</strong> – a sürgősségi <em>conicotomia</em> helye!)
-                <br>5. <strong>Cartilago cricoidea</strong> (<em>arcus cartilaginis cricoideae</em>)
-                <br>6. <strong>Membrana / Ligamentum cricotracheale</strong>
-                <br>7. <strong>Trachea</strong> (légcső porcgyűrűi – a 2–4. porc előtt fekszik az <em>isthmus glandulae thyroideae</em>!).</li>
-            <li><strong>Mélyebb kapcsolódó struktúrák (Oesophagus, N. laryngeus recurrens, Spatium retropharyngeum):</strong>
-                <ul>
-                    <li><em>Oesophagus és a Sulcus tracheooesophageus:</em> A <em>trachea</em> mögött az <strong>oesophagus</strong> (nyelőcső) helyezkedik el kissé <strong>balra tolt helyzetben</strong>. A <em>trachea</em> és az <em>oesophagus</em> összefekvésénél kétoldalt keletkező barázdában (<strong>sulcus tracheooesophageus</strong>) fut alulról felfelé a <strong>nervus laryngeus recurrens (X.)</strong>, amely <strong>jobb oldalon az a. subclavia dextra</strong>, <strong>bal oldalon pedig az arcus aortae</strong> alól megkerülve a mellkasból érkezik vissza a nyakba! A <em>n. laryngeus recurrens</em> (végága: <em>n. laryngeus inferior</em>) a <strong>belső gégeizmok</strong> motoros idege (a <em>m. cricothyroideus</em> kivételével), és a gége nyálkahártyáját a <em>rima glottidis</em> alatt általános érző és autonom paraszimpatikus idegrostokkal is ellátja.</li>
-                    <li><em>Spatium retropharyngeum és Truncus sympathicus:</em> Az <em>oesophagus</em> mögött található a mellüregbe (<em>mediastinum posterius</em>) is leterjedő, laza kötőszövettel kitöltött <strong>spatium retropharyngeum / retroviscerale</strong>, amely elválasztja a nyelőcsövet a <em>fascia cervicalis lamina prevertebralis</em>-ától. Utóbbinak állományában, a <em>vagina carotica</em> mögött fut a <strong>truncus sympathicus pars cervicalis</strong>-a.</li>
-                </ul>
+            <li><strong>Aljzata (feneke):</strong> Két lapos izom alkotja lépcsőzetes elrendezésben: elöl és felületesebben a <strong>musculus mylohyoideus</strong>, hátrébb és mélyebben pedig a <strong>musculus hyoglossus</strong>. A két izom között hátul egy rés nyílik felfelé a szájfenék felé: ez a <strong>sulcus lateralis linguae</strong>!</li>
+            <li><strong>Az 5 fő áthaladó / bennfoglalt képlet:</strong>
+                <ol>
+                    <li><strong>Glandula submandibularis:</strong> A háromszöget nagyrészt kitölti (csupán a legelülső csúcsát hagyja szabadon).</li>
+                    <li><strong>Ductus submandibularis (Wharton-vezeték):</strong> A mirigy kivezetőcsöve, amely a <em>m. mylohyoideus</em> hátsó szélét megkerülve lép előre a <em>sulcus lateralis linguae</em>-n át.</li>
+                    <li><strong>Arteria et vena facialis:</strong> Az <em>a. carotis externa</em> harmadik elülső ága, az <strong>arteria facialis</strong> mélyen a mirigy belső-hátsó felszínébe ágyazódva fut előre-felfelé (mielőtt a <em>m. masseter</em> elülső szélénél felkanyarodik az arcra), míg a <strong>vena facialis</strong> felületesebben, a mirigy külső felszínén halad lefelé.</li>
+                    <li><strong>Nervus lingualis (V/3) et nervus hypoglossus (XII.):</strong> A háromszög hátsó részéből nyíló járaton át (<strong>sulcus lateralis linguae</strong>) a nyálmirigy kivezetőcsövével együtt ez a két kulcsfontosságú ideg jut be a szájüreg nyelv alatti részébe (<strong>regio sublingualis</strong>).</li>
+                    <li><strong>Nodi lymphoidei submandibulares (submandibularis nyirokcsomók):</strong> Közvetlenül a <em>basis mandibulae</em> és a nyálmirigy között elhelyezkedő nyirokcsomólánc, amelynek gyulladásos vagy daganatos duzzanata a bőrön át jól tapintható!</li>
+                </ol>
             </li>
         </ul>
 
         <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin:0.9rem 0 1.3rem 0;">
-            <a href="https://www.google.com/search?tbm=isch&q=regio+colli+mediana+spatium+suprasternale+arcus+venosus+jugularis+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                🔍 Atlasz: Regio colli mediana &amp; Arcus venosus jugularis (elölnézet) diagram
+            <a href="https://www.google.com/search?tbm=isch&q=trigonum+submandibulare+glandula+submandibularis+arteria+facialis+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                🔍 Atlasz: Trigonum submandibulare &amp; képletei (alsó-oldalsó nézet) diagram
             </a>
-            <a href="https://www.google.com/search?tbm=isch&q=anterior+neck+midline+structures+cricothyroid+ligament+trachea+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                🔍 Atlasz: Nyaki középvonali váz és rétegek (sagittalis metszet) diagram
+            <a href="https://www.google.com/search?tbm=isch&q=sulcus+lateralis+linguae+ductus+submandibularis+nervus+lingualis+hypoglossus+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                🔍 Atlasz: Sulcus lateralis linguae &amp; Regio sublingualis átmenet diagram
             </a>
         </div>
 
-        <h3>2. A pajzsmirigy (Glandula thyroidea)</h3>
-        <p>A <strong>glandula thyroidea</strong> (pajzsmirigy; tömege kb. 20–25 g) a szervezet legnagyobb tisztán endokrin (belső elválasztású) mirigye (T<sub>3</sub>, T<sub>4</sub> és kalcitonin termelése), amely pillangó vagy H-alakban fogja közre a légcső felső szakaszát és a gégét.</p>
-
-        <h4>A) Alakja, elhelyezkedése és tokjai</h4>
+        <h3>2. Trigonum submentale (Állcsúcs alatti háromszög)</h3>
+        <p>A <strong>trigonum submentale</strong> a nyak elülső felszínén, közvetlenül az állcsúcs alatt található <strong>páratlan</strong>, középvonali izomháromszög:</p>
         <ul>
-            <li><strong>Részei:</strong> Két oldalsó lebenyből (<strong>lobus dexter et lobus sinister</strong>) áll, amelyek a gége és a trachea felső részének két oldalán fekszenek (felfelé a pajzsporc középső magasságáig, lefelé az 5–6. légcsőporcig érnek). A két lebenyt elöl, a <strong>2–4. trachealis porcgyűrű magasságában</strong> egy vékonyabb összekötő híd, az <strong>isthmus glandulae thyroideae</strong> kapcsolja össze. Innen kétoldalt hátrafelé és oldalra nyúlnak a lebenyek, amelyek a gégét és a légcsövet kétoldalról patkószerűen közrefogják.
-                <br>&bull; <em>Fejlődéstani variációk (ductus thyroglossus maradványa!):</em> Egyes esetekben az <em>isthmus</em> hiányozhat (két különálló lebeny), vagy fordítva: az <em>isthmus</em>-ból (leggyakrabban balra a középvonaltól) a pajzsporc előtt felfelé nyúló keskeny mirigynyúlvány indulhat ki a nyelvcsont felé: ez a <strong>lobus pyramidalis</strong> (a <em>ductus thyroglossus</em> alsó szakaszának visszamaradt mirigyállománya!).</li>
-            <li><strong>Mellékpajzsmirigyek (Glandulae parathyroideae – a jegyzet kézzel írt kiegészítése!):</strong> A pajzsmirigy két oldalsó lebenyének hátsó felszínén (a külső és belső tok között!) ülnek az apró, lencsényi <strong>alsó és felső mellékpajzsmirigyek (glandulae parathyroideae superiores et inferiores)</strong> (rendszerint 2–2 db = összesen 4 db; parathormon [PTH] termelésével a kalcium-háztartást szabályozzák – pajzsmirigyműtétnél életbevágó a megkímélésük!).</li>
-            <li><strong>Tapintása és tokjai:</strong> A pajzsmirigy tömör tapintású, barnásvörös (rendkívül erekben gazdag) mirigy. Két kötőszövetes tok veszi körül:
-                <br>1. <em>Külső kötőszövetes tok (capsula externa / ál-tok):</em> Erős kötőszövetes lemez, amely a <strong>lamina pretrachealis fasciae cervicalis</strong> levált része (illetve részben önálló kötőszövetes toknak tekinthető). Ez a tok rögzíti a pajzsmirigyet a gyűrűporchoz és a felső légcsőporcokhoz (<strong>ligamentum suspensorium glandulae thyroideae / Berry-szalag</strong>) – <strong>emiatt követi a pajzsmirigy nyeléskor a gége felfelé irányuló mozgását</strong> (fontos diagnosztikai jel a nyaki csomók elkülönítésében!).
-                <br>2. <em>Belső saját tok (capsula fibrosa):</em> Közvetlenül a mirigyállományra fekszik, és sövényeket bocsát a lebenykék közé. A külső és belső tok közötti résben futnak a pajzsmirigy nagyerei, a <em>n. laryngeus recurrens</em> és itt ülnek a <em>glandulae parathyroideae</em>!
-                <br>&bull; <em>Elülső izomfedése:</em> A lebenyeket elölről-oldalról tökéletesen betakarja a <strong>musculus sternothyroideus</strong> (ezért nem tud a pajzsmirigy felfelé növekedni, hanem megnagyobbodásakor – <em>struma</em> – lefelé, a mellkasbemenet mögé terjed!).</li>
-        </ul>
-
-        <div class="mnemonic-box">
-            <strong>🔪 Sebészi Veszélyzóna – Pajzsmirigyműtét (Thyreoidektómia) 3 kritikus képlete:</strong><br>
-            1. <strong>Nervus laryngeus recurrens:</strong> Hátul-medialisan a <em>sulcus tracheooesophageus</em>-ban futva szorosan érintkezik a pajzsmirigy lebenyeivel, és kereszteződik az <em>a. thyroidea inferior</em>-ral. Egyoldali sérülése rekedtséget (hangszalagbénulás), kétoldali sérülése a <em>m. cricoarytenoideus posterior</em> kiesése miatt azonnali fulladást okoz!<br>
-            2. <strong>Nervus laryngeus superior (ramus externus):</strong> A felső pólusnál az <em>a. thyroidea superior</em>-ral együtt fut – lekötésekor az ideg sérülése a <em>m. cricothyroideus</em> bénulását (magas hangok elvesztését) okozza.<br>
-            3. <strong>Glandulae parathyroideae:</strong> A lebenyek hátsó felszínén ülő 4 mellékpajzsmirigy véletlen eltávolítása súlyos hypocalcaemiát és életveszélyes izomgörcsöket (<em>tetania</em>) vált ki!
-        </div>
-
-        <h4>B) A pajzsmirigy vérellátása (2 artériapár + 3 vénapár / plexus)</h4>
-        <p>A pajzsmirigy a test egyik legbőségesebb vérellátású szerve (grammonként több vér áramlik át rajta, mint a vesén!):</p>
-        <ul>
-            <li><strong>Artériák (két artériapár – gazdag anastomosisokkal):</strong>
+            <li><strong>Határai:</strong>
                 <ul>
-                    <li><strong>1. Arteria thyroidea superior (&larr; a. carotis externa első ága):</strong> Felülről száll le a lebenyek felső pólusához (elülső és hátsó ágakra oszlik), közben leadja a <strong>arteria laryngea superior</strong>-t a gégéhez (a <em>n. laryngeus superior r. internus</em>-ával együtt lép be).</li>
-                    <li><strong>2. Arteria thyroidea inferior (&larr; truncus thyrocervicalis &larr; a. subclavia):</strong> A <em>vagina carotica</em> (<em>a. carotis communis, v. jugularis interna, n. vagus</em>) <strong>mögött</strong> ívben medial felé hajolva, alulról-hátulról éri el a lebenyek hátsó felszínét; közben leadja az <strong>arteria laryngea inferior</strong>-t a gégéhez (a <em>n. laryngeus recurrens</em> kíséretében!).</li>
-                    <li><em>(Ritkán előfordulhat egy páratlan 5. artéria is alulról: az <strong>arteria thyroidea ima</strong> az arcus aortae-ból vagy truncus brachiocephalicus-ból – tracheostomiánál veszélyes!)</em></li>
+                    <li><em>Alul (bázisa):</em> A nyelvcsont teste (<strong>corpus ossis hyoidei</strong>).</li>
+                    <li><em>Kétoldalt (szárai):</em> A jobb és bal oldali <strong>musculus digastricus mandibulae elülső hasa (venter anterior)</strong>, amelyek elöl a <em>fossa digastrica</em>-nál találkoznak (csúcs).</li>
+                    <li><em>Aljzata:</em> A kétoldali <strong>musculus mylohyoideus</strong> és az azokat középen egyesítő kötőszövetes varrat, a <strong>raphe mylohyoidea</strong>.</li>
                 </ul>
             </li>
-            <li><strong>Vénás elvezetés (3 pár véna + elülső vénás fonat):</strong>
+            <li><strong>Áthaladó képletek:</strong>
                 <ul>
-                    <li><strong>1. Venae thyroideae superiores:</strong> Az <em>a. thyroidea superior</em>-t kísérve felfelé-oldalra futnak, és a <strong>vena jugularis interna</strong>-ba torkollnak.</li>
-                    <li><strong>2. Venae thyroideae mediae:</strong> Artéria kísérete nélkül a lebenyek oldalsó széléről lépnek ki, keresztezik az <em>a. carotis communis</em>-t, és közvetlenül a <strong>vena jugularis interna</strong>-ba ömlenek.</li>
-                    <li><strong>3. Plexus thyroideus impar &rarr; Vena thyroidea ima et Venae thyroideae inferiores:</strong> A <em>trachea</em> elülső felszínén, az <em>isthmus</em> alatt sűrű gyűjtőeres fonat alakul ki (<strong>plexus thyroideus impar</strong>). Ebből középen lefelé fut a páratlan <strong>vena thyroidea ima</strong>, kétoldalt pedig a <strong>venae thyroideae inferiores</strong>, amelyek lefelé haladva a <strong>vena brachiocephalica dextra et sinistra</strong>-ba drenálnak!</li>
+                    <li><strong>Submentalis nyirokcsomók (nodi lymphoidei submentales):</strong> Az alsó metszőfogak, az alsó ajak középső harmada, a szájfenék elülső része, az állcsúcs bőre és a nyelvcsúcs nyirkát gyűjtik össze, majd továbbítják a <em>nodi lymphoidei submandibulares</em> és a mély nyaki nyirokcsomók felé (valamint itt futnak a <em>vv. jugulares anteriores</em> kezdeti ágai).</li>
                 </ul>
             </li>
         </ul>
 
-        <!-- 1. INTERAKTÍV SVG ÁBRA: A PAJZSMIRIGY TOPOGRÁFIÁJA, VÉRELLÁTÁSA ÉS IDEGKAPCSOLATAI -->
+        <h3>3. Glandula submandibularis (Állkapocs alatti nyálmirigy)</h3>
+        <p>A <strong>glandula submandibularis</strong> a három nagy páros nyálmirigy egyike (a nyugalmi nyáltermelés kb. 60–70%-át adja; szövettanilag kevert, <em>seromucinosus</em> mirigy, serosus túlsúllyal).</p>
+        <ul>
+            <li><strong>Alakja, mérete és topográfiai viszonyai:</strong>
+                <ul>
+                    <li><em>Mérete és szerkezete:</em> <strong>7–8 gramm</strong> tömegű, diónyi nagyságú, kötőszöveti sövényekkel (<em>septumok</em>) lebenykékre (<em>lobuli</em>) osztott szerv, amely a <strong>trigonum submandibulare-t az elülső csúcsa kivételével kitölti</strong>.</li>
+                    <li><em>Felszínei és szomszédai:</em>
+                        <br>&bull; <strong>Belső (medialis) felszíne:</strong> A <em>trigonum submandibulare</em> fenekével, vagyis elöl a <strong>m. mylohyoideus</strong>-szal, hátrébb pedig a <strong>m. hyoglossus</strong>-szal érintkezik.
+                        <br>&bull; <strong>Külső (lateralis/alsó) felszíne:</strong> A bőr, a <em>platysma</em> és közvetlenül a <strong>lamina superficialis fasciae cervicalis</strong> borítja (amely a <em>basis mandibulae</em> és az <em>os hyoideum</em> között zárt kötőszövetes tokot képez körülötte). Felső része a mandibula belső felszínén lévő sekély bemélyedésbe (<strong>fovea submandibularis</strong>) fekszik bele.</li>
+                    <li><em>Kritikus ér- és idegviszonyok (vizsgakérdések!):</em>
+                        <br>&bull; <strong>Arteria facialis:</strong> A mirigy belső felszínének hátsó részébe az <strong>arteria facialis mélyen beleássa magát</strong> (barázdát, sőt néha teljes csatornát váj bele), szinte <strong>két lebenyre osztva</strong> a mirigyet!
+                        <br>&bull; <strong>Vena facialis:</strong> Ezzel szemben a <strong>vena facialis a mirigy külső felszínén</strong> fut lefelé (tehát az artéria mélyen, a véna felületesen helyezkedik el!).
+                        <br>&bull; <strong>Nervus lingualis és Ganglion submandibulare:</strong> A mirigy felső felszíne mentén hajlik előre a <strong>nervus lingualis</strong> íve, amelyből a mirigyhez leszálló apróbb idegágak (<em>rami ganglionares</em>) egy lapos vegetatív dúcban, a <strong>ganglion submandibulare</strong>-ban egyesülnek.</li>
+                </ul>
+            </li>
+            <li><strong>Kivezetőcsöve (Ductus submandibularis – Wharton-féle vezeték):</strong>
+                <ul>
+                    <li><em>Eredése és „horogszerű” megkerülése:</em> A <strong>ductus submandibularis</strong> a mirigy medialis felszínén ered, és először <strong>hátrafelé</strong> halad a mirigy állományában. Elérve a <em>m. mylohyoideus</em> szabad hátsó szélét, azt <strong>horogszerűen megkerüli</strong> (egy kis mély mirigynyúlvánnyal, a <em>processus uncinatus</em>-szal együtt), és így <strong>belép a sulcus lateralis linguae-ba</strong>!</li>
+                    <li><em>Lefutása a szájfenéken:</em> A <em>m. mylohyoideus</em> belső (felső) felszínén – a <em>glandula sublingualis</em>-tól medialisan – előre-felfelé haladva kb. <strong>4 cm lefutás után</strong> nyílik a szájüregbe a nyelvfék (<em>frenulum linguae</em>) két oldalán ülő kis nyálkahártya-szemölcsön, a <strong>caruncula sublingualis</strong>-on át!</li>
+                    <li><em>A nervus lingualis kettős keresztezése (Sebészi alapszabály!):</em> A <em>sulcus lateralis linguae</em>-ba belépve a <em>n. lingualis</em> először a <em>ductus submandibularis</em> <strong>felett és lateralisan</strong> fut, majd az alsó bölcsességfog mögött-alatt <strong>alulról keresztezi</strong> a vezetéket, és medialisan lép be a nyelv állományába („a nyelv idege alulról hurkolja át a nyálmirigy vezetékét”).</li>
+                </ul>
+            </li>
+            <li><strong>A mirigy secretomotoros (paraszimpatikus) beidegzése:</strong>
+                <ul>
+                    <li>A mirigy nyálelválasztásának serkentését a <strong>ganglion submandibulare</strong>-ban elhelyezkedő posztganglionaris neuronok axonjai végzik, amelyek a <strong>n. lingualis közvetítésével</strong> (illetve közvetlen <em>rami glandulares</em> útján) érik el a mirigyet.</li>
+                    <li><em>A teljes pre- és posztganglionaris pálya lépésről lépésre:</em>
+                        <br>1. <strong>Híd (Pons):</strong> <strong>Nucleus salivatorius superior</strong> (általános visceromotoros mag &rarr; preganglionaris paraszimpatikus perikaryonok).
+                        <br>2. <strong>Nervus facialis (VII.) &rarr; Chorda tympani:</strong> A preganglionaris rostok a VII. agyideggel kilépnek az agytörzsből, a dobüregen áthaladó <strong>chorda tympani</strong>-val lépnek ki a <em>fissura petrotympanica</em>-n, és a <em>fossa infratemporalis</em>-ban hátulról csatlakoznak a <em>n. mandibularis (V/3)</em> ágához, a <strong>nervus lingualis</strong>-hoz.
+                        <br>3. <strong>Ganglion submandibulare:</strong> A <em>n. lingualis</em>-ból lelépő preganglionaris rostok itt <strong>szinaptizálnak</strong> (átkapcsolnak)!
+                        <br>4. <strong>Posztganglionaris rostok:</strong> A <em>ganglion submandibulare</em> sejtjeiből induló rövid posztganglionaris rostok közvetlenül belépnek a <strong>glandula submandibularis</strong>-ba (míg a <em>glandula sublingualis</em>-hoz tartó posztganglionaris rostok visszatérnek a <em>n. lingualis</em>-ba, és azon utaznak tovább előre!).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- 1. INTERAKTÍV SVG ÁBRA: A GLANDULA SUBMANDIBULARIS TOPOGRÁFIÁJA ÉS A DUCTUS LEFUTÁSA -->
         <div class="visual-aid-box" style="background:var(--bg); border:1.5px solid var(--border); border-radius:10px; padding:1.2rem; margin:1.3rem 0;">
             <div style="font-weight:800; font-size:0.95rem; color:var(--primary); margin-bottom:0.7rem;">
-                🗺️ Interaktív Topográfiai Séma: A Pajzsmirigy (Glandula thyroidea) erei és veszélyzónái (Elölnézet)
+                🗺️ Interaktív Topográfiai Séma: A Glandula submandibularis, a M. mylohyoideus megkerülése és a beidegzés
             </div>
             <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:0.5rem; background:var(--card-bg); border:1px solid var(--border); border-radius:8px; padding:0.6rem 0.9rem; margin-bottom:0.8rem; font-size:0.82rem; font-weight:700; color:var(--text);">
-                <span>⬆️ <strong>FELÜL / CRANIALIS (Cartilago thyroidea)</strong></span>
-                <span>⬇️ <strong>ALUL / CAUDALIS (Trachea &amp; Vv. brachiocephalicae)</strong></span>
-                <span>⬅️ <strong>JOBB OLDAL (Dextra)</strong> &harr; <strong>BAL OLDAL (Sinistra)</strong> ➡️</span>
+                <span>⬆️ <strong>FELÜL / CRANIALIS (Regio sublingualis &amp; Nyelv)</strong></span>
+                <span>⬇️ <strong>ALUL / CAUDALIS (Trigonum submandibulare)</strong></span>
+                <span>⬅️ <strong>ELÖL / ANTERIOR (Caruncula sublingualis)</strong> &harr; <strong>HÁTUL / POSTERIOR (M. mylohyoideus széle)</strong> ➡️</span>
             </div>
             <div style="text-align:center;">
-                <svg viewBox="0 0 640 340" style="max-width:100%; height:auto; border-radius:8px; background:var(--card-bg); border:1px solid var(--border);">
-                    <!-- Gége & Trachea váz -->
-                    <polygon points="275,35 365,35 355,95 285,95" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
-                    <text x="320" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#334155">CART. THYROIDEA</text>
+                <svg viewBox="0 0 640 320" style="max-width:100%; height:auto; border-radius:8px; background:var(--card-bg); border:1px solid var(--border);">
+                    <!-- M. mylohyoideus elválasztó lemez -->
+                    <polygon points="110,165 430,165 415,182 110,182" fill="#94a3b8" stroke="#475569" stroke-width="2" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🛡️ <strong>M. mylohyoideus (Diaphragma oris):</strong> Elválasztja a felette lévő <em>regio sublingualis</em>-t és az alatta lévő <em>trigonum submandibulare</em>-t! Szabad hátsó szélét (jobbra) horogszerűen megkerüli a <em>ductus submandibularis</em>!';"
+                        onclick="document.getElementById('readout-t27-1').innerHTML='🛡️ <strong>M. mylohyoideus (Diaphragma oris):</strong> Elválasztja a felette lévő <em>regio sublingualis</em>-t és az alatta lévő <em>trigonum submandibulare</em>-t! Szabad hátsó szélét (jobbra) horogszerűen megkerüli a <em>ductus submandibularis</em>!';"/>
+                    <text x="255" y="177" text-anchor="middle" font-size="10" font-weight="bold" fill="#ffffff">M. MYLOHYOIDEUS (V/3)</text>
 
-                    <rect x="296" y="100" width="48" height="190" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
-                    <text x="320" y="255" text-anchor="middle" font-size="10" font-weight="bold" fill="#64748b" transform="rotate(-90 320 255)">TRACHEA</text>
+                    <!-- Glandula submandibularis (alul a trigonumban + mély nyúlvány) -->
+                    <path d="M 270 185 C 240 245, 340 280, 445 245 C 495 225, 495 140, 435 145 L 435 162 L 455 162 C 465 175, 445 190, 420 185 Z" fill="#fcd34d" stroke="#b45309" stroke-width="2.5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🟡 <strong>Glandula submandibularis (7–8 g):</strong> Kitölti a <em>trigonum submandibulare</em>-t. Hátsó nyúlványa megkerüli a <em>m. mylohyoideus</em> hátsó szélét, belső-hátsó felszínébe pedig mélyen beleássa magát az <em>a. facialis</em>!';"
+                        onclick="document.getElementById('readout-t27-1').innerHTML='🟡 <strong>Glandula submandibularis (7–8 g):</strong> Kitölti a <em>trigonum submandibulare</em>-t. Hátsó nyúlványa megkerüli a <em>m. mylohyoideus</em> hátsó szélét, belső-hátsó felszínébe pedig mélyen beleássa magát az <em>a. facialis</em>!';"/>
+                    <text x="360" y="232" text-anchor="middle" font-size="11" font-weight="bold" fill="#78350f">GL. SUBMANDIBULARIS</text>
 
-                    <!-- Vagina carotica nagyerei kétoldalt (A. carotis comm. & V. jugularis int.) -->
-                    <line x1="175" y1="30" x2="175" y2="300" stroke="#ef4444" stroke-width="9" opacity="0.7" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🩸 <strong>A. carotis communis &amp; V. jugularis interna (Vagina carotica):</strong> A pajzsmirigy oldalsó lebenyei szorosan érintkeznek a <em>vagina carotica</em>-val; mögötte hajlik be medial felé az <em>a. thyroidea inferior</em>!';"
-                        onclick="document.getElementById('readout-t27-1').innerHTML='🩸 <strong>A. carotis communis &amp; V. jugularis interna (Vagina carotica):</strong> A pajzsmirigy oldalsó lebenyei szorosan érintkeznek a <em>vagina carotica</em>-val; mögötte hajlik be medial felé az <em>a. thyroidea inferior</em>!';"/>
-                    <line x1="150" y1="30" x2="150" y2="300" stroke="#3b82f6" stroke-width="11" opacity="0.7"/>
-                    <line x1="465" y1="30" x2="465" y2="300" stroke="#ef4444" stroke-width="9" opacity="0.7"/>
-                    <line x1="490" y1="30" x2="490" y2="300" stroke="#3b82f6" stroke-width="11" opacity="0.7"/>
+                    <!-- Ductus submandibularis (Wharton-vezeték - 4 cm) -->
+                    <path d="M 380 212 L 450 205 C 472 195, 472 145, 445 140 L 135 130" fill="none" stroke="#10b981" stroke-width="5" stroke-linecap="round" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🟢 <strong>Ductus submandibularis (Wharton-vezeték):</strong> A mirigy medialis felszínén ered, hátrafelé megkerüli a <em>m. mylohyoideus</em> szélét (belép a <em>sulcus lateralis linguae</em>-ba), és kb. 4 cm lefutás után a <strong>caruncula sublingualis</strong>-on nyílik!';"
+                        onclick="document.getElementById('readout-t27-1').innerHTML='🟢 <strong>Ductus submandibularis (Wharton-vezeték):</strong> A mirigy medialis felszínén ered, hátrafelé megkerüli a <em>m. mylohyoideus</em> szélét (belép a <em>sulcus lateralis linguae</em>-ba), és kb. 4 cm lefutás után a <strong>caruncula sublingualis</strong>-on nyílik!';"/>
+                    <circle cx="132" cy="130" r="6" fill="#059669"/>
+                    <text x="132" y="116" text-anchor="middle" font-size="10" font-weight="bold" fill="#059669">Caruncula sublingualis</text>
 
-                    <!-- Pajzsmirigy lebenyek + Isthmus + Lobus pyramidalis -->
-                    <path d="M 245 100 C 215 100, 200 165, 225 220 C 245 245, 285 220, 292 185 L 348 185 C 355 220, 395 245, 415 220 C 440 165, 425 100, 395 100 C 370 100, 355 135, 348 155 L 292 155 C 285 135, 270 100, 245 100 Z" fill="#fda4af" stroke="#be123c" stroke-width="2.5" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🦋 <strong>Glandula thyroidea (Lobus dexter, Lobus sinister &amp; Isthmus):</strong> A 2–4. légcsőporc előtt fekszik az <em>isthmus</em>. A tokja a <em>lamina pretrachealis</em>-ból ered (nyeléskor együtt mozog a gégével!), hátsó felszínén ülnek a <em>glandulae parathyroideae</em>.';"
-                        onclick="document.getElementById('readout-t27-1').innerHTML='🦋 <strong>Glandula thyroidea (Lobus dexter, Lobus sinister &amp; Isthmus):</strong> A 2–4. légcsőporc előtt fekszik az <em>isthmus</em>. A tokja a <em>lamina pretrachealis</em>-ból ered (nyeléskor együtt mozog a gégével!), hátsó felszínén ülnek a <em>glandulae parathyroideae</em>.';"/>
-                    <!-- Lobus pyramidalis -->
-                    <path d="M 332 155 L 336 90 L 344 155 Z" fill="#fb7185" stroke="#be123c" stroke-width="1.5" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🔺 <strong>Lobus pyramidalis:</strong> Fejlődéstani variáció (a <em>ductus thyroglossus</em> maradványa): az <em>isthmus</em>-ból felfelé nyúló keskeny mirigynyúlvány a pajzsporc előtt.';"
-                        onclick="document.getElementById('readout-t27-1').innerHTML='🔺 <strong>Lobus pyramidalis:</strong> Fejlődéstani variáció (a <em>ductus thyroglossus</em> maradványa): az <em>isthmus</em>-ból felfelé nyúló keskeny mirigynyúlvány a pajzsporc előtt.';"/>
-                    <text x="320" y="174" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#881337">ISTHMUS</text>
+                    <!-- Glandula sublingualis (felül elöl) -->
+                    <ellipse cx="215" cy="112" rx="52" ry="18" fill="#fed7aa" stroke="#ea580c" stroke-width="2" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🟠 <strong>Glandula sublingualis:</strong> A <em>m. mylohyoideus</em> felett (<em>regio sublingualis</em>), a <em>ductus submandibularis</em>-tól lateralisan fekszik.';"
+                        onclick="document.getElementById('readout-t27-1').innerHTML='🟠 <strong>Glandula sublingualis:</strong> A <em>m. mylohyoideus</em> felett (<em>regio sublingualis</em>), a <em>ductus submandibularis</em>-tól lateralisan fekszik.';"/>
+                    <text x="215" y="116" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#9a3412">Gl. sublingualis</text>
 
-                    <!-- A. thyroidea superior (felülről) -->
-                    <path d="M 180 55 C 215 60, 235 80, 245 100" fill="none" stroke="#dc2626" stroke-width="4.5" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🔴 <strong>A. thyroidea superior (&larr; A. carotis externa):</strong> Felülről száll le a felső pólushoz, leadja az <em>a. laryngea superior</em>-t. Műtétnél a <em>n. laryngeus superior r. externus</em>-ra kell vigyázni!';"
-                        onclick="document.getElementById('readout-t27-1').innerHTML='🔴 <strong>A. thyroidea superior (&larr; A. carotis externa):</strong> Felülről száll le a felső pólushoz, leadja az <em>a. laryngea superior</em>-t. Műtétnél a <em>n. laryngeus superior r. externus</em>-ra kell vigyázni!';"/>
-                    <path d="M 460 55 C 425 60, 405 80, 395 100" fill="none" stroke="#dc2626" stroke-width="4.5"/>
-                    <text x="225" y="48" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#dc2626">A. thyroidea sup.</text>
+                    <!-- N. lingualis + Ganglion submandibulare -->
+                    <path d="M 520 45 C 470 95, 420 120, 355 120 C 315 120, 295 148, 250 142 L 165 95" fill="none" stroke="#eab308" stroke-width="4" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='⚡ <strong>Nervus lingualis (V/3) + Chorda tympani (VII.):</strong> A <em>sulcus lateralis linguae</em>-ban halad, felfüggeszti a <em>ganglion submandibulare</em>-t, majd <strong>alulról keresztezi</strong> a <em>ductus submandibularis</em>-t a nyelv felé!';"
+                        onclick="document.getElementById('readout-t27-1').innerHTML='⚡ <strong>Nervus lingualis (V/3) + Chorda tympani (VII.):</strong> A <em>sulcus lateralis linguae</em>-ban halad, felfüggeszti a <em>ganglion submandibulare</em>-t, majd <strong>alulról keresztezi</strong> a <em>ductus submandibularis</em>-t a nyelv felé!';"/>
+                    <text x="530" y="38" text-anchor="middle" font-size="10" font-weight="bold" fill="#a16207">N. lingualis (+ Chorda tympani)</text>
 
-                    <!-- A. thyroidea inferior (a vagina carotica mögött!) -->
-                    <path d="M 120 245 C 165 245, 200 225, 225 205" fill="none" stroke="#dc2626" stroke-width="4.5" stroke-dasharray="5,2" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🔴 <strong>A. thyroidea inferior (&larr; Truncus thyrocervicalis):</strong> A <em>vagina carotica</em> MÖGÖTT ívben medial felé hajolva lép be alulról-hátulról, leadja az <em>a. laryngea inferior</em>-t, és kereszteződik a <em>n. laryngeus recurrens</em>-szel!';"
-                        onclick="document.getElementById('readout-t27-1').innerHTML='🔴 <strong>A. thyroidea inferior (&larr; Truncus thyrocervicalis):</strong> A <em>vagina carotica</em> MÖGÖTT ívben medial felé hajolva lép be alulról-hátulról, leadja az <em>a. laryngea inferior</em>-t, és kereszteződik a <em>n. laryngeus recurrens</em>-szel!';"/>
-                    <path d="M 520 245 C 475 245, 440 225, 415 205" fill="none" stroke="#dc2626" stroke-width="4.5" stroke-dasharray="5,2"/>
-                    <text x="115" y="262" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#dc2626">A. thyroidea inf.</text>
+                    <!-- Ganglion submandibulare -->
+                    <line x1="395" y1="118" x2="395" y2="145" stroke="#8b5cf6" stroke-width="2.5"/>
+                    <ellipse cx="395" cy="150" rx="14" ry="7" fill="#8b5cf6" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🟣 <strong>Ganglion submandibulare:</strong> Parasimpatikus dúc! Itt kapcsolnak át a <em>nucleus salivatorius superior</em>-ból (VII. &rarr; <em>chorda tympani</em> &rarr; <em>n. lingualis</em>) érkező preganglionaris rostok!';"
+                        onclick="document.getElementById('readout-t27-1').innerHTML='🟣 <strong>Ganglion submandibulare:</strong> Parasimpatikus dúc! Itt kapcsolnak át a <em>nucleus salivatorius superior</em>-ból (VII. &rarr; <em>chorda tympani</em> &rarr; <em>n. lingualis</em>) érkező preganglionaris rostok!';"/>
+                    <text x="335" y="154" text-anchor="end" font-size="9.5" font-weight="bold" fill="#7e22ce">Ggl. submandibulare</text>
 
-                    <!-- N. laryngeus recurrens (hátul a sulcusban) -->
-                    <line x1="292" y1="295" x2="292" y2="115" stroke="#eab308" stroke-width="3.5" stroke-dasharray="4,2" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='⚡ <strong>N. laryngeus recurrens (X.):</strong> A <em>trachea</em> és <em>oesophagus</em> közötti barázdában száll felfelé a pajzsmirigy hátsó felszíne mellett! A belső gégeizmok motoros idege.';"
-                        onclick="document.getElementById('readout-t27-1').innerHTML='⚡ <strong>N. laryngeus recurrens (X.):</strong> A <em>trachea</em> és <em>oesophagus</em> közötti barázdában száll felfelé a pajzsmirigy hátsó felszíne mellett! A belső gégeizmok motoros idege.';"/>
-                    <line x1="348" y1="295" x2="348" y2="115" stroke="#eab308" stroke-width="3.5" stroke-dasharray="4,2"/>
-
-                    <!-- Plexus thyroideus impar -> V. thyroidea ima & Vv. thyroideae inf. -->
-                    <path d="M 275 215 Q 320 230 365 215" fill="none" stroke="#2563eb" stroke-width="4" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🔵 <strong>Plexus thyroideus impar &rarr; V. thyroidea ima &amp; Vv. thyroideae inferiores:</strong> A trachea alsó szakasza előtt fekvő vénás fonatból lefelé fut a páratlan <em>v. thyroidea ima</em> és kétoldalt a <em>vv. thyroideae inferiores</em> a <em>v. brachiocephalica dextra et sinistra</em>-ba!';"
-                        onclick="document.getElementById('readout-t27-1').innerHTML='🔵 <strong>Plexus thyroideus impar &rarr; V. thyroidea ima &amp; Vv. thyroideae inferiores:</strong> A trachea alsó szakasza előtt fekvő vénás fonatból lefelé fut a páratlan <em>v. thyroidea ima</em> és kétoldalt a <em>vv. thyroideae inferiores</em> a <em>v. brachiocephalica dextra et sinistra</em>-ba!';"/>
-                    <line x1="320" y1="222" x2="320" y2="315" stroke="#2563eb" stroke-width="4"/>
-                    <line x1="275" y1="215" x2="255" y2="315" stroke="#2563eb" stroke-width="3.5"/>
-                    <line x1="365" y1="215" x2="385" y2="315" stroke="#2563eb" stroke-width="3.5"/>
-                    <text x="320" y="330" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#1d4ed8">Vv. thyroideae inf. &amp; V. thyroidea ima (&rarr; Vv. brachiocephalicae)</text>
+                    <!-- A. facialis (mélyen beleássa magát!) -->
+                    <path d="M 535 280 C 495 255, 455 240, 415 215 C 385 195, 345 190, 290 185" fill="none" stroke="#ef4444" stroke-width="4.5" stroke-dasharray="6,3" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t27-1').innerHTML='🔴 <strong>Arteria facialis:</strong> Az <em>a. carotis externa</em> 3. ága. Mélyen beleássa magát a mirigy belső-hátsó felszínébe (szinte két lebenyre osztva azt), míg a <em>v. facialis</em> a külső felszínen fut!';"
+                        onclick="document.getElementById('readout-t27-1').innerHTML='🔴 <strong>Arteria facialis:</strong> Az <em>a. carotis externa</em> 3. ága. Mélyen beleássa magát a mirigy belső-hátsó felszínébe (szinte két lebenyre osztva azt), míg a <em>v. facialis</em> a külső felszínen fut!';"/>
+                    <text x="530" y="295" text-anchor="middle" font-size="10" font-weight="bold" fill="#dc2626">A. facialis (mélyen)</text>
                 </svg>
             </div>
             <div id="readout-t27-1" style="margin-top:0.75rem; padding:0.65rem 0.95rem; background:var(--card-bg); border:1.5px solid var(--accent); border-radius:8px; font-size:0.9rem; color:var(--text);">
-                💡 <strong>Kikérdező tipp:</strong> Vidd az egeret (vagy koppints) a pajzsmirigyre, a <em>lobus pyramidalis</em>-ra, az erekre vagy a <em>n. laryngeus recurrens</em>-re, és megjelenik a sebészi-topográfiai magyarázat!
+                💡 <strong>Kikérdező tipp:</strong> Vidd az egeret (vagy koppints) a mirigyre, a <em>ductus submandibularis</em>-ra, a <em>ganglion submandibulare</em>-ra vagy az <em>a. facialis</em>-ra, és azonnal megjelenik a vizsgamagyarázat!
             </div>
             <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.85rem;">
-                <a href="https://www.google.com/search?tbm=isch&q=glandula+thyroidea+blood+supply+arteria+thyroidea+superior+inferior+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                    🔍 Atlasz: Glandula thyroidea vérellátása (elöl- és hátulnézet) diagram
+                <a href="https://www.google.com/search?tbm=isch&q=glandula+submandibularis+ductus+submandibularis+nervus+lingualis+ganglion+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                    🔍 Atlasz: Glandula submandibularis &amp; Ganglion submandibulare diagram
                 </a>
-                <a href="https://www.google.com/search?tbm=isch&q=thyroid+gland+parathyroid+recurrent+laryngeal+nerve+posterior+view+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                    🔍 Atlasz: Pajzsmirigy hátsó felszíne (Gll. parathyroideae &amp; N. laryngeus recurrens) diagram
+                <a href="https://www.google.com/search?tbm=isch&q=submandibular+gland+facial+artery+vein+mylohyoid+relationship+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                    🔍 Atlasz: A. et V. facialis viszonya a gl. submandibularishoz diagram
                 </a>
             </div>
+        </div>
+
+        <div class="mnemonic-box">
+            <strong>🦷 Fogorvosi &amp; Klinikai Kapocs – Nyálkőképződés (Sialolithiasis) a Wharton-vezetékben:</strong><br>
+            • A nyálkövek (<em>sialolith</em>-ok) több mint <strong>80%-a a glandula submandibularis-ban és a ductus submandibularis-ban</strong> alakul ki! <strong>Miért?</strong> Három mechanikai-kémiai okból: (1) a vezeték hosszú (kb. 4 cm), (2) a gravitáció ellenében <em>felfelé</em> szállítja a nyálat a <em>caruncula sublingualis</em>-hoz és éles szögben törik meg a <em>m. mylohyoideus</em> hátsó szélénél, (3) a mirigy nyála mucinban és kalcium-foszfátban gazdagabb (viszkózusabb), mint a parotisé.<br>
+            • <em>Típusos tünet:</em> Étkezéskor (nyálelválasztási inger!) hirtelen fellépő, fájdalmas duzzanat az állkapocs alatt („nyálkólika”), amely bimanuális tapintással (egyik ujj a szájfenéken, másik kívül a <em>trigonum submandibulare</em>-ban) jól lokalizálható. Sebészi eltávolításakor vigyázni kell a vezetéket alulról keresztező <strong>nervus lingualis</strong>-ra!
         </div>
     `
 });

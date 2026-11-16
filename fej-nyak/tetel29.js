@@ -1,266 +1,295 @@
 window.TETELEK.push({
     num: 29,
     id: "tetel-29",
-    title: "29. Tétel: Regio nuchae. A fej és a nyak vénás elvezetése és nyirokcsomói.",
-    shortName: "Regio nuchae, fej-nyak vénái és nyirokcsomói",
+    title: "29. Tétel: Trigonum supraclaviculare. A plexus cervicalis ágai. A plexus brachialis supraclavicularis része.",
+    shortName: "Trigonum supraclaviculare, plexus cervicalis és brachialis",
     summaryHtml: `
         <ul>
-            <li><strong>Regio nuchae (Regio cervicalis posterior – tarkótájék):</strong>
+            <li><strong>Trigonum supraclaviculare (Regio cervicalis lateralis):</strong> Határai: alul <em>clavicula</em>, elöl <em>m. SCM</em> hátsó éle, hátul <em>m. trapezius</em> elülső széle; aljzata: mély nyakizmok + <em>lamina prevertebralis</em>; bőridege: <strong>nn. supraclaviculares</strong> (SS); bőr alatt <em>platysma</em>, alatta <em>v. jugularis externa</em> és <em>lamina superficialis</em> &bull; A <em>m. omohyoideus venter inferior</em> kettéosztja:
                 <ul>
-                    <li><em>Határai &amp; Bőrbeidegzése (3 ideg – SS):</em> Felül <em>protuberantia occipitalis externa</em> (POE) vonala, alul <em>C7 processus spinosus</em> vonala, oldalt a <em>proc. mastoideus</em>-okon át húzott függőleges vonalak &bull; Bőrbeidegzés: <strong>n. occipitalis minor</strong> (C2–C3 <em>plexus cervicalis</em> – oldalt a <em>m. SCM</em> mögött), <strong>n. occipitalis major</strong> (C2 <em>ramus dorsalis</em> – középen a POE alatt), <strong>n. occipitalis tertius</strong> (C3 <em>ramus dorsalis</em> – alsó-medialis rész).</li>
-                    <li><em>7 réteg (felületestől mélyig) &amp; Izmok:</em> (1) Bőr &rarr; (2) <em>fascia nuchae superficialis</em> &rarr; (3) <strong>m. trapezius</strong> (<em>n. accessorius</em>) &amp; elöl-fent <strong>m. SCM</strong> (alatta <em>a. occipitalis</em>!) + <strong>m. levator scapulae</strong> (<em>n. dorsalis scapulae</em> + C3–C4) &rarr; (4) <strong>m. splenius capitis et cervicis</strong> &rarr; (5) <strong>m. semispinalis capitis</strong> (átfúrja a <em>n. occipitalis major</em> és <em>tertius</em>!) + középvonalban <strong>ligamentum nuchae</strong> &rarr; (6) <em>fascia nuchae profunda</em> &rarr; (7) <strong>Trigonum suboccipitale</strong> (<em>m. rectus capitis post. major</em>, <em>m. obliquus capitis sup. et inf.</em> + <em>m. rectus capitis post. minor</em>; benne: <strong>a. vertebralis</strong> + <strong>n. suboccipitalis [C1 r. dorsalis]</strong>) és <em>m. semispinalis cervicis</em>.</li>
+                    <li><em>Trigonum omotrapezoideum (felső):</em> Előbújó <em>plexus cervicalis</em> bőrágak (<em>punctum nervosum</em>), <strong>n. accessorius (XI.)</strong> (a <em>m. levator scapulae</em> fasciáján), <em>plexus brachialis pars supraclavicularis</em> (<em>n. dorsalis scapulae</em>, <em>n. thoracicus longus</em>), <em>a. cervicalis ascendens</em> (<em>truncus thyrocervicalis</em>).</li>
+                    <li><em>Trigonum omoclaviculare (alsó / fossa supraclavicularis major):</em> <strong>A. subclavia + plexus brachialis</strong> (a <em>hiatus scaleni</em>-ben!), <strong>v. subclavia</strong> (a <em>m. scalenus anterior</em> előtt/medialisan), <em>nn. supraclaviculares</em>.</li>
                 </ul>
             </li>
-            <li><strong>A fej és a nyak vénás elvezetése (V. jugularis interna et externa + Arcvénák):</strong>
+            <li><strong>Plexus cervicalis ágai (C1–C4 rami ventrales – SS + SM):</strong> A <em>m. scalenus anterior</em> és <em>medius</em> között lép ki, a <em>m. SCM</em> hátsó széle közepén (<strong>punctum nervosum / Erb-pont</strong>) válik felületessé:
                 <ul>
-                    <li><em>Vena jugularis interna (VJI):</em> <em>Foramen jugulare</em> hátsó része (<em>bulbus sup.</em>) &rarr; <em>vagina carotica</em> (IX–XII. agyidegek mellett) &rarr; <em>angulus venosus</em> &bull; Felveszi: agy/koponyaűr vénái, <em>plexus venosus pharyngeus</em>, <em>vv. linguales</em>, <em>vv. thyroideae sup. et mediae</em>, valamint az arcról a közös törzzsel/külön ömlő <strong>v. facialis</strong>-t és <strong>v. retromandibularis</strong>-t!</li>
-                    <li><em>V. facialis &amp; V. retromandibularis:</em> <strong>V. facialis</strong> (<em>v. angularis</em> &rarr; <em>m. masseter</em> előtt &rarr; <em>trigonum submandibulare</em>; felveszi a <em>v. submentalis</em>-t és a <em>v. profunda faciei</em>-t &rarr; <strong>plexus pterygoideus</strong> &rarr; <em>vv. emissariae</em> &rarr; <strong>sinus cavernosus</strong> + <em>v. ophthalmica sup.</em> = <strong>veszélyes arci háromszög!</strong>) &bull; <strong>V. retromandibularis</strong> (<em>v. temporalis supf. + v. maxillaris [plexus pterygoideus]</em> &rarr; parotisban leszáll &rarr; <em>v. facialis</em>-szal egyesülve a <strong>VJI</strong>-ba, hátsó ágával a <em>v. auricularis post.</em>-ral a <strong>VJE</strong>-be ömlik).</li>
-                    <li><em>Vena jugularis externa (VJE) &amp; Vv. brachiocephalicae:</em> A <em>platysma</em> alatt, a <em>m. SCM</em> felszínén száll le &rarr; átfúrja a fasciát (légembólia-veszély!) &rarr; <em>v. subclavia</em> / <em>angulus venosus</em> &bull; <strong>V. brachiocephalica sinistra</strong> felveszi: <em>plexus thyroideus impar (v. thyroidea ima)</em>, <em>vv. thymicae</em>, <em>v. vertebralis</em>, <em>v. thoracica interna</em>.</li>
+                    <li><em>4 érző bőrág (SS):</em> <strong>1. N. occipitalis minor</strong> (C2 – tarkótájék lateralis része); <strong>2. N. auricularis magnus</strong> (C2–C3 – fülkagyló mögötti/alsó terület, fültőmirigy tájéka); <strong>3. N. transversus (cutaneus) colli</strong> (C2–C3 – harántul a nyak elülső részének bőre); <strong>4. Nn. supraclaviculares (mediales, intermedii, laterales)</strong> (C3–C4 – kulcscsont felett/alatt a mellkas és váll csúcsának bőre).</li>
+                    <li><em>Motoros ágak (SM):</em> Közvetlen <em>rami musculares</em> (mély nyakizmok, <em>m. geniohyoideus</em>, <em>m. thyrohyoideus</em> C1 rostokkal) + <strong>Ansa cervicalis (C1–C3)</strong> (<em>radix superior</em> [C1, <em>n. hypoglossus</em>-hoz csatlakozik – nem része, csak vele fut!] + <em>radix inferior</em> [C2–C3] &rarr; <em>m. sternohyoideus, m. sternothyroideus, m. omohyoideus</em>) + <strong>Nervus phrenicus (C3–C5, főleg C4 – „C3, 4, 5 keeps the diaphragm alive!”)</strong> (<em>m. scalenus anterior</em> elülső felszínén száll le &rarr; mellüregbe az <em>a. et v. subclavia</em> között &rarr; <em>a. pericardiacophrenica</em> kíséretében &rarr; <strong>rekeszizom [diaphragma]</strong> motoros + mellhártya/szívburok/hashártya érző!).</li>
                 </ul>
             </li>
-            <li><strong>A fej és a nyak nyirokcsomói (Sávos perifériás gyűrű &rarr; Mély nyaki lánc):</strong>
+            <li><strong>Plexus brachialis supraclavicularis része (C4–C8, Th1 rami ventrales):</strong>
                 <ul>
-                    <li><em>Fej felületes nyirokcsomó-gyűrűje (5 csoport):</em> <strong>1. Nodi lymph. occipitales</strong> (hátsó tarkótájék); <strong>2. Nodi lymph. retroauriculares / mastoidei</strong> (fül mögötti fejtető, külső hallójárat hátsó fala, dobüreg); <strong>3. Nodi lymph. parotidei superficiales (et profundi)</strong> (fül előtti fejtető, homlok, felső szemhéj); <strong>4. Nodi lymph. submandibulares</strong> (orr, alsó szemhéj, felső ajak, oldalsó fogak, szájpad, nyelv elülső-oldalsó része); <strong>5. Nodi lymph. submentales</strong> (alsó ajak közepe, alsó frontfogak, nyelvcsúcs, szájfenék eleje). <em>(Agyvelőben NINCS nyirokér – liquortér; a dura mater külső rétegében már van!)</em></li>
-                    <li><em>Mély nyaki nyirokcsomók (Nodi lymph. cervicales profundi – kb. 30 db):</em> A <em>v. jugularis interna</em> mentén (primer dúsulás: <em>tonsilla palatina</em>, nyelvgyök, bölcsességfogak; többi fej-nyaki területnek szekunder állomás; kiegészítve: <em>nodi lymph. retropharyngeales</em> és <em>tracheales</em>) &rarr; összefolynak: <strong>truncus jugularis dexter et sinister</strong> &rarr; <em>ductus lymphaticus dexter</em> / <em>ductus thoracicus</em> &rarr; <strong>angulus venosus</strong>!</li>
+                    <li><em>Trunci (törzsek a hiatus scaleni-ben):</em> <strong>Truncus superior</strong> (C5–C6 [+C4]), <strong>truncus medius</strong> (C7), <strong>truncus inferior</strong> (C8–Th1) &rarr; a <em>clavicula</em> és 1. borda között az <em>a. axillaris</em> körül 3 <strong>fasciculus</strong>-ba rendeződnek (<em>lateralis, medialis, posterior</em>).</li>
+                    <li><em>Supraclavicularis (vállövi) ágak (4):</em> <strong>1. N. dorsalis scapulae</strong> (C5 &rarr; <em>mm. rhomboidei</em> + <em>m. levator scapulae</em>); <strong>2. N. thoracicus longus</strong> (C5–C7 &rarr; <em>m. serratus anterior</em>; sérülése = <em>scapula alata</em>!); <strong>3. N. suprascapularis</strong> (<em>truncus sup.</em> C5–C6 &rarr; <em>incisura scapulae</em> a <em>lig. transversum scapulae sup.</em> ALATT &rarr; <em>m. supraspinatus et infraspinatus</em>); <strong>4. N. subclavius</strong> (<em>truncus sup.</em> C5–C6 &rarr; <em>m. subclavius</em>). <em>(Vigyázat: a nn. subscapulares, n. thoracodorsalis és nn. pectorales medialis/lateralis már INFRACLAVICULARIS / fasciculus-ágak!)</em></li>
                 </ul>
             </li>
         </ul>
     `,
     html: `
-        <h3>1. Regio nuchae (Regio cervicalis posterior – Tarkótájék)</h3>
-        <p>A <strong>regio nuchae</strong> a nyak hátsó, erőteljes izomzattal borított tájéka, amely a koponyaalaptól a hát felső határáig terjed.</p>
-
-        <h4>A) Határai és bőrbeidegzése (3 érző ideg – SS)</h4>
+        <h3>1. Trigonum supraclaviculare (Regio cervicalis lateralis)</h3>
+        <p>A <strong>trigonum supraclaviculare</strong> (oldalsó nyaki háromszög – <strong>regio cervicalis lateralis</strong>) a nyak oldalsó felszínén elhelyezkedő nagy, háromszögletű térség, amely fontos ideg- és érképletek átjárója a nyak, a mellkas és a felső végtag között.</p>
         <ul>
-            <li><strong>Határai:</strong>
+            <li><strong>Határai és rétegei:</strong>
                 <ul>
-                    <li><em>Felül:</em> A <strong>protuberantia occipitalis externa (POE)</strong> és a <em>linea nuchalis superior</em> magasságában húzott vízszintes vonal.</li>
-                    <li><em>Alul:</em> A <strong>C7 csigolya processus spinosus</strong>-a (<em>vertebra prominens</em>) és az <em>acromion</em>-ok magasságában húzott vízszintes vonal.</li>
-                    <li><em>Lateralisan (kétoldalt):</em> A kétoldali <strong>processus mastoideus</strong>-okon keresztül húzott függőleges vonalak.</li>
+                    <li><em>Alul (bázisa):</em> A kulcscsont (<strong>clavicula</strong>) középső harmada.</li>
+                    <li><em>Elöl (medialisan):</em> A <strong>musculus sternocleidomastoideus (SCM) hátsó éle</strong>.</li>
+                    <li><em>Hátul (lateralisan):</em> A <strong>musculus trapezius elülső széle</strong>.</li>
+                    <li><em>Aljzata (feneke):</em> A mély nyakizmok (<em>m. splenius capitis</em>, <em>m. levator scapulae</em>, <em>mm. scaleni medius et posterior</em>) és az őket szorosan borító <strong>lamina prevertebralis fasciae cervicalis</strong>.</li>
+                    <li><em>Rétegei kívülről befelé:</em> Bőr (bőridegei a <strong>nn. supraclaviculares</strong> [SS]) &rarr; bőr alatt alsó-elülső részén a <strong>platysma</strong> &rarr; közvetlenül alatta a felületes vénás rendszer (<strong>vena jugularis externa</strong>, amely itt fúrja át a fasciát!) &rarr; <strong>lamina superficialis fasciae cervicalis</strong> (amely kettőzetével behüvelyezi a határoló <em>m. SCM</em>-t és a <em>m. trapezius</em>-t).</li>
                 </ul>
             </li>
-            <li><strong>Bőrbeidegzése (3 nyaki szelvényből származó érző ideg):</strong>
+            <li><strong>Felosztása (A m. omohyoideus venter inferior két részre osztja):</strong>
                 <ul>
-                    <li><strong>1. Nervus occipitalis minor (&larr; C2–C3, plexus cervicalis r. ventralis!):</strong> A <em>m. sternocleidomastoideus</em> hátsó éle mentén száll felfelé, és a tarkótájék <strong>lateralis</strong> részének bőrét idegzi be (az egyetlen, amely a gerincvelői idegek <em>ramus ventralis</em>-ából származik!).</li>
-                    <li><strong>2. Nervus occipitalis major (&larr; C2 gerincvelői ideg ramus dorsalis-a!):</strong> A <em>m. obliquus capitis inferior</em> alatt kanyarodik felfelé, átfúrja a <em>m. semispinalis capitis</em>-t és a <em>m. trapezius</em> inát, majd az <em>a. occipitalis</em> kíséretében a <strong>POE alatti középső-felső</strong> tarkótájékot és a fejtető hátsó részének bőrét látja el.</li>
-                    <li><strong>3. Nervus occipitalis tertius (&larr; C3 gerincvelői ideg ramus dorsalis-a!):</strong> Szintén átfúrja a mély tarkóizmokat, és a tarkótájék <strong>alsó-medialis</strong> részének bőrét idegzi be.</li>
+                    <li><strong>1. Trigonum omotrapezoideum (felső, nagyobb háromszög):</strong>
+                        <br>&bull; <em>Határai:</em> Alul a <strong>m. omohyoideus alsó hasa (venter inferior)</strong>, elöl-medialisan a <strong>m. SCM hátsó éle</strong>, hátul a <strong>m. trapezius elülső széle</strong>. Aljzatát a mély nyakizmok (<em>m. levator scapulae</em>, <em>mm. scaleni</em>) alkotják.
+                        <br>&bull; <em>Áthaladó képletek:</em>
+                        <br>&nbsp;&nbsp;– A <strong>plexus cervicalis</strong> törzsei a <em>m. SCM</em> hátsó széle mögül előbújva (itt lépnek elő a <strong>bőrágak</strong> a <em>punctum nervosum</em>-nál).
+                        <br>&nbsp;&nbsp;– <strong>Nervus accessorius (XI. – ramus externus):</strong> Ferdén lefelé-hátrafelé szeli át a háromszöget (közvetlenül a <em>lamina superficialis</em> alatt, a <strong>m. levator scapulae fasciáján</strong> fekve!) a <em>m. trapezius</em> felé.
+                        <br>&nbsp;&nbsp;– A <strong>plexus brachialis pars supraclavicularis</strong> ágai: a <strong>nervus dorsalis scapulae</strong> és a <strong>nervus thoracicus longus</strong>.
+                        <br>&nbsp;&nbsp;– <strong>Arteria cervicalis ascendens</strong> (a <em>truncus thyrocervicalis</em> ága, a <em>m. scalenus anterior</em>-on száll felfelé).</li>
+                    <li><strong>2. Trigonum omoclaviculare (alsó, kisebb háromszög – fossa supraclavicularis major):</strong>
+                        <br>&bull; <em>Határai:</em> Alul a <strong>clavicula</strong>, medialisan a <strong>m. SCM hátsó éle</strong>, fent a <strong>m. omohyoideus venter inferior</strong>-ja. Aljzatát a mély nyakizmok (<em>scalenus</em>-izmok) alkotják.
+                        <br>&bull; <em>Áthaladó képletek:</em>
+                        <br>&nbsp;&nbsp;– <strong>Arteria subclavia</strong> és felette-mögötte a <strong>plexus brachialis</strong> törzsei a <em>m. scalenus anterior</em> és <em>medius</em> közötti <strong>hiatus scaleni</strong> nevű résen lépnek át!
+                        <br>&nbsp;&nbsp;– <strong>Vena subclavia:</strong> A <em>m. scalenus anterior</em>-tól elöl és medialisan fut (tehát NEM a <em>hiatus scaleni</em>-ben!).
+                        <br>&nbsp;&nbsp;– <strong>Nn. supraclaviculares:</strong> A háromszög területén haladnak lefelé a kulcscsont felett.</li>
                 </ul>
             </li>
         </ul>
 
-        <h4>B) A tájék 7 rétege és izmai (felületestől mélyig)</h4>
-        <ol>
-            <li><strong>Bőr (cutis):</strong> Vastag, szőrtüszőkben és faggyúmirigyekben gazdag.</li>
-            <li><strong>Fascia nuchae superficialis</strong> (felületes izompólya, a <em>lamina superficialis fasciae cervicalis</em> hátsó folytatása).</li>
-            <li><strong>1. izomréteg (felületes hát- és nyakizmok):</strong>
-                <ul>
-                    <li><strong>Musculus trapezius (csuklyásizom):</strong> A <em>protuberantia occipitalis externa</em>-tól a 7. nyakcsigolya tövisnyúlványáig ered a <em>ligamentum nuchae</em>-n; felső rostjai a váll karakterét meghatározó meredek eséssel, alsóbb rostjai a vízszinteshez egyre közelítve húzódnak, és tapadnak a <strong>spina scapulae</strong>-hez, az <strong>acromion</strong>-hoz és a <strong>clavicula lateralis 1/3-ához</strong> (beidegzés: <strong>n. accessorius [XI.]</strong>).</li>
-                    <li><strong>Musculus sternocleidomastoideus (SCM):</strong> A regio felső-oldalsó szöglete közelében tapad a <em>processus mastoideus</em>-on és a <em>linea nuchalis superior</em> oldalsó részén; eredését/tapadását felszabadítva alatta megtaláljuk az <strong>arteria occipitalis</strong>-t (<em>&larr; a. carotis externa</em>).</li>
-                    <li><strong>Musculus levator scapulae (lapockaemelő izom):</strong> Oldalra, a <em>trigonum supraclaviculare</em> aljzatában tűnik fel (C1–C4 harántnyúlványokról a lapocka felső szögletére húzódik; beidegzés: <strong>n. dorsalis scapulae</strong> + C3–C4; fasciáján fut lefelé a <em>n. accessorius</em>!).</li>
-                </ul>
-            </li>
-            <li><strong>2. izomréteg: Musculus splenius capitis et cervicis (szíjizom):</strong> A <em>m. trapezius</em> rostjaira <strong>merőleges</strong> (alulról-belülről felfelé-kifelé tartó) rostozatával egy réteggel mélyebben található. A <em>n. occipitalis major</em> felette lép elő, a <em>n. occipitalis tertius</em> pedig átfúrja.</li>
-            <li><strong>3. izomréteg: Musculus semispinalis capitis (féltövises fejizom) és Ligamentum nuchae:</strong> A következő rétegben a középvonal két oldalán, azzal <strong>párhuzamosan futó (függőleges)</strong> rostozattal látható, amelyet mind a <em>n. occipitalis major</em>, mind a <em>n. occipitalis tertius</em> átfúr. A középvonalban a <em>protuberantia occipitalis externa</em> és a <em>vertebra prominens (C7)</em> tövisnyúlványa között feszül ki a rugalmas tarkószalag, a <strong>ligamentum nuchae</strong> (amely a négylábú emlősökben a fej súlyát tartja, az embernél viszont már csak izomeredési sövény!).</li>
-            <li><strong>Fascia nuchae profunda:</strong> A mély tarkóizmokat és a <em>trigonum suboccipitale</em>-t borító erős pólyalemez.</li>
-            <li><strong>4. izomréteg (mély tarkóizmok): Trigonum suboccipitale és M. semispinalis cervicis:</strong>
-                <ul>
-                    <li>A tarkó legmélyebb rétegében négy apró rövid izom (<em>mm. suboccipitales</em>) veszi körül az <em>atlas</em>-t és az <em>axis</em>-t:
-                        <br>&bull; <strong>M. rectus capitis posterior minor:</strong> Az <em>atlas tuberculum posterius</em>-ától a <em>linea nuchalis inferior</em> belső harmadához húzódik (a középvonalban legbelül – nem része a háromszögnek!).
-                        <br>&bull; <strong>M. rectus capitis posterior major:</strong> Az <em>axis</em> tövisnyúlványától a <em>linea nuchalis inferior</em> középső harmadához fut (<strong>a háromszög felső-medialis határa</strong>).
-                        <br>&bull; <strong>M. obliquus capitis inferior:</strong> Az <em>axis</em> tövisnyúlványától az <em>atlas processus transversus</em>-ához húzódik (<strong>a háromszög alsó határa</strong>).
-                        <br>&bull; <strong>M. obliquus capitis superior:</strong> Az <em>atlas processus transversus</em>-ától a <em>linea nuchalis inferior</em> oldalsó harmadához megy (<strong>a háromszög felső-lateralis határa</strong>).</li>
-                    <li><em>A Trigonum suboccipitale tartalma:</em> <strong>Arteria vertebralis</strong> (a <em>sulcus a. vertebralis</em>-ban medial felé kanyarodva, mielőtt átfúrná a <em>membrana atlantooccipitalis posterior</em>-t) és a <strong>nervus suboccipitalis (C1 ramus dorsalis)</strong> (tisztán motoros ideg a négy kis izomhoz!).</li>
-                    <li><em>Klinikum (Ciszternapunkció – suboccipitalis punctio):</em> A <em>cisterna cerebellomedullaris (cisterna magna)</em> liquornyerés céljából végzett megszúrásakor a tűt pontosan a középvonalban (a <em>lig. nuchae</em>-n át, elkerülve a kétoldali <em>a. vertebralis</em>-t!) vezetjük be, és a <strong>membrana atlantooccipitalis posterior</strong>-t (valamint a <em>dura mater</em>-t) kell átszúrni!</li>
-                </ul>
-            </li>
-        </ol>
+        <h3>2. A plexus cervicalis (nyaki idegfonat) ágai (C1–C4)</h3>
+        <p>A <strong>plexus cervicalis</strong> az első négy cervicalis gerincvelői ideg <strong>ramus ventralisaiból (C1–C4)</strong> kialakuló, hurkokból álló idegfonat (érző – <strong>SS</strong> és motoros – <strong>SM</strong> rostokat tartalmaz). A cervicalis gerincvelői idegek a nyakcsigolyák <em>processus transversus</em>-ainak <em>sulcus nervi spinalis</em>-ában haladva lépnek ki a gerinccsatornából, majd a két scalenusizom (<strong>m. scalenus anterior et medius</strong>) között húzódnak előre. A fonat bőrágai a <strong>m. sternocleidomastoideus hátsó széle közepén</strong> (<strong>punctum nervosum / Erb-pont</strong>) bújnak elő a <em>lamina superficialis</em>-t átfúrva, és csillagszerűen szétterülnek:</p>
 
-        <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin:0.9rem 0 1.3rem 0;">
-            <a href="https://www.google.com/search?tbm=isch&q=regio+nuchae+suboccipital+triangle+muscles+vertebral+artery+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                🔍 Atlasz: Regio nuchae rétegei &amp; Trigonum suboccipitale (hátulnézet) diagram
-            </a>
-            <a href="https://www.google.com/search?tbm=isch&q=occipital+nerves+major+minor+tertius+suboccipital+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                🔍 Atlasz: N. occipitalis major, minor &amp; tertius bőrbeidegzése diagram
-            </a>
-        </div>
-
-        <h3>2. A fej és a nyak vénás elvezetése</h3>
-        <p>A fejről és a nyakról a vénás vért két fő nyaki gyűjtőérrendszer, a mélyben futó <strong>vena jugularis interna</strong> és a felületesebben elhelyezkedő <strong>vena jugularis externa</strong> (valamint az <em>arcus venosus jugularis</em>-t alkotó <em>vv. jugulares anteriores</em>) vezeti el a vénás szögletek felé:</p>
-
-        <h4>A) Vena jugularis interna (VJI) és koponyaűri-nyaki gyűjtőterülete</h4>
+        <h4>A) Négy érző bőrág (Somatosensoros – SS)</h4>
         <ul>
-            <li><strong>Eredése és lefutása:</strong> A külső koponyaalap felszínén, a <strong>foramen jugulare hátsó-lateralis részén (pars venosa / lateralis)</strong> ered a <em>sinus sigmoideus</em> közvetlen folytatásaként, egy tágulattal (<strong>bulbus superior venae jugularis</strong> – amely felfelé közvetlenül a dobüreg alsó falával, a <em>paries jugularis</em>-szal érintkezik!). Közvetlen környezetében találjuk az elülső-medialis nyíláson kilépő agyidegeket (<strong>IX. n. glossopharyngeus, X. n. vagus, XI. n. accessorius</strong>) és elöl-belül a <em>canalis caroticus</em>-ba belépő <em>a. carotis interna</em>-t.</li>
-            <li><strong>Nyaki szakasza:</strong> A <strong>vagina carotica</strong>-ban száll lefelé (lateralisan az <em>a. carotis interna/communis</em>-tól), majd a <em>sternoclavicularis</em> ízület mögött alsó tágulattal (<strong>bulbus inferior v. jugularis</strong>, amelyben egy kéthegyű billentyű ül!) találkozik a <strong>v. subclavia</strong>-val, létrehozva az <strong>angulus venosus</strong>-t (innen indul a <em>v. brachiocephalica</em>).</li>
-            <li><strong>Fő gyűjtőágai:</strong> Az agy és a koponyaűr összes vénás vére (<em>sinus durae matris</em>), a garat vénás fonata (<strong>plexus venosus pharyngeus</strong>), a nyelv vénái (<strong>vv. linguales</strong>), a pajzsmirigy felső és középső vénái (<strong>vv. thyroideae superiores et mediae</strong>), valamint az arc két nagy vénája (<em>v. facialis</em> és <em>v. retromandibularis</em>).</li>
+            <li><strong>1. Nervus occipitalis minor (C2):</strong> Érző rostokból álló ideg, amely a <em>m. SCM</em> hátsó éle mentén meredeken felfelé szállva a <strong>tarkótájék lateralis részét</strong> (és a fülkagyló felső-hátsó részének bőrét) látja el érző rostokkal.</li>
+            <li><strong>2. Nervus auricularis magnus (C2–C3):</strong> A <em>plexus cervicalis</em> legerősebb bőrőága; a <em>m. SCM</em> külső felszínén ferdén felfelé-előre száll a fülkagyló felé, és a <strong>fülkagyló mögötti/alsó területét</strong>, a <em>regio parotideomasseterica</em> és az állszöglet (<em>angulus mandibulae</em>) bőrét innerválja (<em>r. anterior et posterior</em>).</li>
+            <li><strong>3. Nervus transversus (cutaneus) colli (C2–C3):</strong> A <em>m. SCM</em> külső felszínén (a <em>v. jugularis externa</em> alatt/felett) <strong>haránt irányban előrefelé halad</strong>, és a <strong>nyak elülső részének bőrét</strong> idegzi be az állcsúcstól a szegycsontig (felső ágai anastomizálnak a <em>n. facialis r. colli</em>-jával &rarr; <em>ansa cervicalis superficialis</em>).</li>
+            <li><strong>4. Nervi supraclaviculares (mediales, intermedii, laterales – C3–C4):</strong> Közös törzzsel lépnek ki, majd legyezőszerűen szétválva a <em>trigonum supraclaviculare</em>-ban húzódnak lefelé. Ágaik 2–4 ujjnyira a <strong>clavicula alatt</strong>, a mellkasfalon ágaznak el a 2. borda magasságáig: a nyak oldalsó részének, a mellkas felső részének és az elülső mellkasfal felső csíkjának, valamint a vállcsúcsnak (<em>regio deltoidea</em>) érző idegei.</li>
         </ul>
 
-        <h4>B) Az arc vénás elvezetése: V. facialis, V. retromandibularis és a Plexus pterygoideus</h4>
+        <h4>B) Motoros ágak (Somatomotoros – SM) és a Nervus phrenicus</h4>
         <ul>
-            <li><strong>1. Vena facialis (arcvéna):</strong>
+            <li><strong>1. Közvetlen izomágak (Rami musculares – C1–C4):</strong> Ellátják a mély nyakizmokat (<em>m. longus capitis, m. longus colli, mm. recti capitis ant. et lat., mm. scaleni</em>), továbbá C1–C2 rostokkal a <em>m. trapezius</em>-t és a <em>m. SCM</em>-t (propriocepció).</li>
+            <li><strong>2. Ansa cervicalis (C1–C3 – nyaki ideghurok):</strong>
                 <ul>
-                    <li><em>Lefutása:</em> A medialis szemzugnál kezdődik mint <strong>vena angularis</strong> (a <em>v. supraorbitalis</em> és <em>v. supratrochlearis</em> összeömléséből), egyenesen halad lefelé és oldalra az orr mellett és a szájzugon túl (tehát NEM kanyarog úgy, mint az <em>a. facialis</em>, hanem feszesen fut mögötte!). A mandibulán az <strong>a. facialis mögött</strong> fordul át (a <em>m. masseter</em> elülső szélénél), majd a <em>trigonum submandibulare</em>-ban a <em>glandula submandibularis</em> külső felszínén halad tovább, és annak hátsó részében találkozik a <strong>v. retromandibularis</strong> elülső ágával, majd közös törzzsel (vagy külön) a <strong>vena jugularis interna</strong>-ba ömlik.</li>
-                    <li><em>Gyűjtőterülete:</em> Összegyűjti a homlok, az orr, a szemhéj, az infraorbitalis régió, a pofa és a szájpad vénás vérét; a <em>trigonum submandibulare</em>-ban felveszi még az alulról jövő <strong>v. submentalis</strong>-t is.</li>
+                    <li><em>Kialakulása (vizsgabuktató pontosítás!):</em> A <em>plexus cervicalis</em>-ból (C1) kilépő rostok rövid szakaszon hozzáfekszenek a <strong>n. hypoglossus (XII.)</strong> törzséhez (<em>fontos: a n. hypoglossus csak egy „útitárs”, ezek a rostok NEM a XII. agyidegből erednek, hanem a C1 gerincvelői szelvényből!</em>), majd onnan lelépve alkotják a <strong>radix superior ansae cervicalis</strong>-t (<em>descendens n. hypoglossi</em>). Ezzel egyesül a C2–C3 szelvényekből leszálló <strong>radix inferior ansae cervicalis</strong> (<em>descendens cervicalis</em>), és a <em>vagina carotica</em> elülső falán kialakítják a nagyerek elülső felszínén elhelyezkedő ideghurkot (<strong>ansa cervicalis</strong>).</li>
+                    <li><em>Ellátási területe:</em> A nyelvcsont alatti izmok (<strong>mm. infrahyoidei</strong>) közül hármat idegez be: <strong>m. sternohyoideus</strong>, <strong>m. sternothyroideus</strong> és <strong>m. omohyoideus</strong>. (<em>Emlékeztető:</em> a 4. infrahyoid izmot, a <em>m. thyrohyoideus</em>-t és a suprahyoid <em>m. geniohyoideus</em>-t külön C1 rostok látják el a <em>n. hypoglossus</em> útján!)</li>
                 </ul>
             </li>
-            <li><strong>2. Vena retromandibularis és a Plexus venosus pterygoideus:</strong>
+            <li><strong>3. Nervus phrenicus (rekeszideg – C3–C5, főleg C4):</strong>
                 <ul>
-                    <li><em>Kialakulása és kettéoszlása:</em> A <em>glandula parotis</em> állományában (a <em>n. facialis</em> ágai alatt és az <em>a. carotis externa</em> felett!) jön létre a halántéktájék vénás vérét gyűjtő <strong>v. temporalis superficialis</strong> és az <em>a. maxillaris</em> valamennyi ágából visszajövő vért szállító <strong>v. maxillaris</strong> (a <strong>plexus venosus pterygoideus</strong> elvezető vénája) összeömléséből. Függőlegesen átfúrja a parotist, majd a mandibulaszöglet alatt két ágra oszlik:
-                        <br>&bull; <em>Elülső ága:</em> A <em>trigonum submandibulare</em>-ban összeömlik a <em>v. facialis</em>-szal &rarr; <strong>vena jugularis interna</strong>.
-                        <br>&bull; <em>Hátsó ága:</em> Hátul egyesül a <em>v. auricularis posterior</em>-ral &rarr; <strong>vena jugularis externa</strong>!</li>
-                    <li><em>Plexus venosus pterygoideus (röppentyű-nyúlványok körüli vénás fonat):</em> A <em>mm. pterygoidei</em> között található sűrű vénás hálózat, amely a rágóizmokról, a fogakból/állcsontokból, az orrüregből és a keményszájpadból érkező vénás vért vezeti el (főként a <em>v. maxillaris</em>-ba, illetve előre a <strong>v. profunda faciei</strong> révén a <em>v. facialis</em>-ba). Összeköttetésben áll a szemüregi <strong>v. ophthalmica inferiorral</strong>, valamint a koponyaalapi nyílásokon (<em>foramen ovale, lacerum, spinosum</em>) áthaladó <strong>vv. emissariae</strong>-n keresztül a koponyaűri <strong>sinus cavernosus</strong>-szal!</li>
+                    <li><em>Eredése és nyaki lefutása:</em> A <em>plexus cervicalis</em> legfontosabb motoros ága (a <strong>C4-es gerincvelői szelvényből</strong> ered, kiegészülve a C3 és C5 rostjaival; angol vizsgamondóka: <em>„C3, 4, 5 keeps the diaphragm alive!”</em>). A nyak mélyebb területén pontosan a <strong>m. scalenus anterior elülső felszínén</strong> (a <em>lamina prevertebralis</em> alatt!) húzódik ferdén lefelé-befelé. Az ideg mellett találjuk az <em>a. cervicalis ascendens</em>-t (<em>truncus thyrocervicalis</em> &larr; <em>a. subclavia</em>).</li>
+                    <li><em>Belépése a mellüregbe és lefutása a rekeszizomig:</em> A nyak tövénél az <strong>arteria és a vena subclavia között</strong> (a <em>v. subclavia</em> mögött és az <em>a. subclavia</em> előtt), a <em>n. vagus</em>-tól lateralisan lép be a <em>mediastinum supracardiacum</em>-ba (a <em>cupula pleurae</em> medialis oldalán). Lefelé haladtában az <strong>arteria et vena pericardiacophrenica</strong> (&larr; <em>a. thoracica interna</em>) társaságában halad a szívburok (<em>pericardium</em>) és a <em>pleura mediastinalis</em> között egészen a <strong>rekeszizomig (diaphragma)</strong>.</li>
+                    <li><em>Funkciója (kevert ideg!):</em> Motorosan (<strong>SM</strong>) innerválja a <strong>rekeszizmot</strong> (fő légzőizom!), érzően (<strong>SS</strong>) pedig ellátja a <strong>pleura mediastinalis</strong>-t, a <strong>pleura diaphragmatica</strong> középső részét, a <strong>pericardium</strong>-ot és a rekesz alsó felszínét borító <strong>peritoneum parietale</strong>-t (ezért okoz az epehólyag- vagy rekeszizgalom kisugárzó fájdalmat a jobb vállcsúcsba – C4 dermatoma!).</li>
                 </ul>
             </li>
         </ul>
 
-        <div class="mnemonic-box">
-            <strong>🚨 Veszélyes Arci Háromszög (Trigonum mortis faciei) – Sinus cavernosus trombózis veszélye!</strong><br>
-            A fej-nyak vénáiban <strong>nincsenek billentyűk</strong>, így a véráramlás iránya nyomásváltozáskor megfordulhat! A felső ajak, az orrhát és a medialis szemzug körüli gyulladások (rosszul kezelt furunculusok, fogászati tályogok) két úton juttathatnak baktériumokat a koponyaűri <strong>sinus cavernosus</strong>-ba:<br>
-            1. <strong>Elülső út:</strong> <em>V. facialis &rarr; v. angularis &harr; v. ophthalmica superior &rarr; sinus cavernosus</em>.<br>
-            2. <strong>Mély út:</strong> <em>V. facialis &rarr; v. profunda faciei &rarr; plexus venosus pterygoideus &harr; vv. emissariae (foramen ovale/lacerum) &rarr; sinus cavernosus</em>!<br>
-            A <em>sinus cavernosus</em> szeptikus trombózisa a benne futó <em>a. carotis interna</em> és a III., IV., V/1, V/2, VI. agyidegek károsodása miatt életveszélyes állapot!
-        </div>
-
-        <h4>C) Vena jugularis externa (VJE) és a Venae brachiocephalicae</h4>
-        <ul>
-            <li><strong>Vena jugularis externa:</strong> A nyak felszínes vénája (csak a bőr és a <em>platysma</em> által takart véna, gyakran kéklik a nyak bőrén!). A fül alatt kezdődik (a <em>v. retromandibularis</em> hátsó ágából és a <em>v. auricularis posterior</em>-ból), ferdén lefelé-hátrafelé keresztezi a <em>m. sternocleidomastoideus</em> külső felszínét, összegyűjti a tarkótájék, a fül és a nyak elülső felszínének vérét (felveszi a <em>v. jugularis anterior</em>-t / <em>arcus venosus jugularis</em>-t is). A kulcscsont felett átfúrja a nyaki fascia felületes és pretrachealis lemezét, és a <strong>v. subclavia</strong>-ba vagy az <strong>angulus venosus</strong>-ba torkollik. <em>(Emlékeztető: a fasciával való összenövés és a m. omohyoideus tónusa nyitva tartja &rarr; sérülésekor <strong>légembólia</strong> veszélye!)</em></li>
-            <li><strong>Vena brachiocephalica dextra et sinistra:</strong> Az <em>angulus venosus</em> kétoldalt szimmetrikus. A bal oldali <strong>vena brachiocephalica sinistra</strong> hosszabb (ferdén keresztezi a mellkasban az <em>arcus aortae</em> nagy ágait elölről a jobb oldali <em>v. brachiocephalica dextra</em> felé, hogy létrehozzák a <strong>vena cava superior</strong>-t), és felveszi a <strong>pajzsmirigy vénáinak egy részét (plexus thyroideus impar / v. thyroidea ima / vv. thyroideae inferiores)</strong>, a <em>thymus</em> vénáit (<em>vv. thymicae</em>), a nyak mély vénáit, a <em>v. vertebralis</em>-t és az <em>a. thoracica interna</em>-t kísérő <em>v. thoracica interna</em>-t.</li>
-        </ul>
-
-        <!-- 1. INTERAKTÍV SVG ÁBRA: A FEJ-NYAK VÉNÁS RENDSZERE ÉS A SINUS CAVERNOSUS ÖSSZEKÖTTETÉSEI -->
+        <!-- 1. INTERAKTÍV SVG ÁBRA: A PLEXUS CERVICALIS SÉMÁJA (BŐRÁGAK, ANSA CERVICALIS, N. PHRENICUS) -->
         <div class="visual-aid-box" style="background:var(--bg); border:1.5px solid var(--border); border-radius:10px; padding:1.2rem; margin:1.3rem 0;">
             <div style="font-weight:800; font-size:0.95rem; color:var(--primary); margin-bottom:0.7rem;">
-                🗺️ Interaktív Vénás Térkép: A fej-nyak vénás elvezetése és a Sinus cavernosus anastomozisai (Oldalnézet)
+                🗺️ Interaktív Idegi Séma: A Plexus cervicalis (C1–C4) felépítése és ágai
             </div>
             <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:0.5rem; background:var(--card-bg); border:1px solid var(--border); border-radius:8px; padding:0.6rem 0.9rem; margin-bottom:0.8rem; font-size:0.82rem; font-weight:700; color:var(--text);">
-                <span>⬆️ <strong>FELÜL / CRANIALIS (Sinus cavernosus &amp; V. temporalis supf.)</strong></span>
-                <span>⬇️ <strong>ALUL / CAUDALIS (Angulus venosus &amp; V. subclavia)</strong></span>
-                <span>⬅️ <strong>ELÖL / ANTERIOR (V. angularis &amp; V. facialis)</strong> &harr; <strong>HÁTUL / POSTERIOR (VJI &amp; VJE)</strong> ➡️</span>
+                <span>⬆️ <strong>FELÜL / CRANIALIS (C1–C2 &amp; N. hypoglossus)</strong></span>
+                <span>⬇️ <strong>ALUL / CAUDALIS (C4–C5 &amp; Diaphragma)</strong></span>
+                <span>⬅️ <strong>ELÖL / VENTRALIS (Infrahyoid izmok &amp; Nyak bőre)</strong> &harr; <strong>HÁTUL / DORSALIS (C1–C4 gyökerek)</strong> ➡️</span>
             </div>
             <div style="text-align:center;">
-                <svg viewBox="0 0 640 340" style="max-width:100%; height:auto; border-radius:8px; background:var(--card-bg); border:1px solid var(--border);">
-                    <!-- Sinus cavernosus (koponyaűrben) -->
-                    <ellipse cx="235" cy="55" rx="48" ry="20" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2.5" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🧠 <strong>Sinus cavernosus:</strong> Koponyaűri vénás öböl! Összeköttetésben áll elöl a <em>v. ophthalmica superior</em>-ral (<em>v. angularis</em> felől), alul pedig a <em>vv. emissariae</em> révén a <em>plexus pterygoideus</em>-szal!';"
-                        onclick="document.getElementById('readout-t29-1').innerHTML='🧠 <strong>Sinus cavernosus:</strong> Koponyaűri vénás öböl! Összeköttetésben áll elöl a <em>v. ophthalmica superior</em>-ral (<em>v. angularis</em> felől), alul pedig a <em>vv. emissariae</em> révén a <em>plexus pterygoideus</em>-szal!';"/>
-                    <text x="235" y="59" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#1e3a8a">SINUS CAVERNOSUS</text>
+                <svg viewBox="0 0 640 330" style="max-width:100%; height:auto; border-radius:8px; background:var(--card-bg); border:1px solid var(--border);">
+                    <!-- C1-C4 gyökerek jobb oldalon -->
+                    <rect x="520" y="35" width="60" height="30" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+                    <text x="550" y="54" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">C1</text>
+                    <rect x="520" y="95" width="60" height="30" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+                    <text x="550" y="114" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">C2</text>
+                    <rect x="520" y="155" width="60" height="30" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+                    <text x="550" y="174" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">C3</text>
+                    <rect x="520" y="215" width="60" height="30" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+                    <text x="550" y="234" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e293b">C4 (+C5)</text>
 
-                    <!-- V. ophthalmica superior (anastomosis) -->
-                    <path d="M 187 58 L 115 80" fill="none" stroke="#ef4444" stroke-width="3.5" stroke-dasharray="4,2" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='⚠️ <strong>V. ophthalmica superior (Veszélyes út 1.):</strong> Összeköti a medialis szemzugi <em>v. angularis</em>-t a <em>sinus cavernosus</em>-szal!';"
-                        onclick="document.getElementById('readout-t29-1').innerHTML='⚠️ <strong>V. ophthalmica superior (Veszélyes út 1.):</strong> Összeköti a medialis szemzugi <em>v. angularis</em>-t a <em>sinus cavernosus</em>-szal!';"/>
-                    <text x="148" y="62" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#dc2626">V. ophth. sup.</text>
+                    <!-- Hurkok C1-C2-C3-C4 között -->
+                    <path d="M 520 50 L 450 50 L 450 230 L 520 230" fill="none" stroke="#eab308" stroke-width="4"/>
+                    <line x1="520" y1="110" x2="450" y2="110" stroke="#eab308" stroke-width="4"/>
+                    <line x1="520" y1="170" x2="450" y2="170" stroke="#eab308" stroke-width="4"/>
 
-                    <!-- V. facialis (elöl lefelé) -->
-                    <path d="M 115 80 L 185 215 L 330 235" fill="none" stroke="#3b82f6" stroke-width="5.5" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>Vena facialis (kezdete: V. angularis):</strong> Egyenesen halad lefelé az arcon (<em>m. masseter</em> előtt), a <em>trigonum submandibulare</em>-ban egyesül a <em>v. retromandibularis</em> elülső ágával, és a <strong>VJI</strong>-ba ömlik.';"
-                        onclick="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>Vena facialis (kezdete: V. angularis):</strong> Egyenesen halad lefelé az arcon (<em>m. masseter</em> előtt), a <em>trigonum submandibulare</em>-ban egyesül a <em>v. retromandibularis</em> elülső ágával, és a <strong>VJI</strong>-ba ömlik.';"/>
-                    <text x="115" y="155" text-anchor="end" font-size="10" font-weight="bold" fill="#2563eb">V. facialis</text>
+                    <!-- N. hypoglossus (XII.) útitárs -->
+                    <path d="M 480 20 L 220 20" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="6,3" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🔴 <strong>N. hypoglossus (XII.):</strong> A C1-es rostok rövid szakaszon hozzáfekszenek a XII. agyideghez (<em>csak útitárs!</em>), majd leadják a <em>m. geniohyoideus</em>, <em>m. thyrohyoideus</em> és az <em>ansa cervicalis radix superior</em> ágait.';"
+                        onclick="document.getElementById('readout-t29-1').innerHTML='🔴 <strong>N. hypoglossus (XII.):</strong> A C1-es rostok rövid szakaszon hozzáfekszenek a XII. agyideghez (<em>csak útitárs!</em>), majd leadják a <em>m. geniohyoideus</em>, <em>m. thyrohyoideus</em> és az <em>ansa cervicalis radix superior</em> ágait.';"/>
+                    <text x="205" y="24" text-anchor="end" font-size="10" font-weight="bold" fill="#dc2626">N. hypoglossus (XII.)</text>
+                    <line x1="470" y1="50" x2="430" y2="20" stroke="#eab308" stroke-width="3.5"/>
 
-                    <!-- Plexus pterygoideus + V. profunda faciei + Vv. emissariae -->
-                    <ellipse cx="235" cy="130" rx="42" ry="22" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🕸️ <strong>Plexus venosus pterygoideus:</strong> A rágóizmok közötti vénás fonat. Előre a <em>v. profunda faciei</em> révén a <em>v. facialis</em>-szal, felfelé a <em>vv. emissariae</em>-n át a <em>sinus cavernosus</em>-szal, hátrafelé pedig a <em>v. maxillaris</em>-szal közlekedik!';"
-                        onclick="document.getElementById('readout-t29-1').innerHTML='🕸️ <strong>Plexus venosus pterygoideus:</strong> A rágóizmok közötti vénás fonat. Előre a <em>v. profunda faciei</em> révén a <em>v. facialis</em>-szal, felfelé a <em>vv. emissariae</em>-n át a <em>sinus cavernosus</em>-szal, hátrafelé pedig a <em>v. maxillaris</em>-szal közlekedik!';"/>
-                    <text x="235" y="133" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#3730a3">Plexus pterygoideus</text>
-                    <line x1="235" y1="75" x2="235" y2="108" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="3,2"/>
-                    <line x1="195" y1="138" x2="152" y2="152" stroke="#4f46e5" stroke-width="3"/>
+                    <!-- Ansa cervicalis -->
+                    <path d="M 350 20 L 320 145 C 320 175, 380 175, 380 145 L 450 135" fill="none" stroke="#f97316" stroke-width="4" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🟠 <strong>Ansa cervicalis (C1–C3):</strong> A <em>radix superior</em> (C1) és a <em>radix inferior</em> (C2–C3) egyesüléséből jön létre; beidegzi a <em>m. sternohyoideus</em>-t, <em>m. sternothyroideus</em>-t és a <em>m. omohyoideus</em>-t!';"
+                        onclick="document.getElementById('readout-t29-1').innerHTML='🟠 <strong>Ansa cervicalis (C1–C3):</strong> A <em>radix superior</em> (C1) és a <em>radix inferior</em> (C2–C3) egyesüléséből jön létre; beidegzi a <em>m. sternohyoideus</em>-t, <em>m. sternothyroideus</em>-t és a <em>m. omohyoideus</em>-t!';"/>
+                    <text x="295" y="135" text-anchor="end" font-size="10" font-weight="bold" fill="#ea580c">Ansa cervicalis (C1–C3)</text>
 
-                    <!-- V. temporalis superficialis + V. retromandibularis -->
-                    <line x1="365" y1="25" x2="365" y2="180" stroke="#0284c7" stroke-width="5" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>Vena retromandibularis:</strong> A <em>v. temporalis superficialis</em> és a <em>v. maxillaris</em> (<em>plexus pterygoideus</em>) összeömléséből jön létre a parotisban; elülső ága a <strong>VJI</strong>-ba, hátsó ága (a <em>v. auricularis post.</em>-ral) a <strong>VJE</strong>-be ömlik!';"
-                        onclick="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>Vena retromandibularis:</strong> A <em>v. temporalis superficialis</em> és a <em>v. maxillaris</em> (<em>plexus pterygoideus</em>) összeömléséből jön létre a parotisban; elülső ága a <strong>VJI</strong>-ba, hátsó ága (a <em>v. auricularis post.</em>-ral) a <strong>VJE</strong>-be ömlik!';"/>
-                    <line x1="277" y1="130" x2="365" y2="130" stroke="#0284c7" stroke-width="3.5"/>
-                    <text x="375" y="45" font-size="9.5" font-weight="bold" fill="#0369a1">V. temporalis supf.</text>
-                    <text x="375" y="115" font-size="9.5" font-weight="bold" fill="#0369a1">V. retromandibularis</text>
+                    <!-- 4 Bőrág (SS) -->
+                    <path d="M 450 90 L 365 55" fill="none" stroke="#3b82f6" stroke-width="3" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>1. N. occipitalis minor (C2 – SS):</strong> A tarkótájék lateralis részének bőrét látja el.';"
+                        onclick="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>1. N. occipitalis minor (C2 – SS):</strong> A tarkótájék lateralis részének bőrét látja el.';"/>
+                    <text x="355" y="55" text-anchor="end" font-size="9.5" font-weight="bold" fill="#2563eb">1. N. occipitalis minor</text>
 
-                    <!-- V. retromandibularis elülső és hátsó ága -->
-                    <path d="M 365 180 L 330 235" fill="none" stroke="#3b82f6" stroke-width="4"/>
-                    <path d="M 365 180 L 445 215" fill="none" stroke="#0ea5e9" stroke-width="4"/>
+                    <path d="M 450 110 L 315 80" fill="none" stroke="#3b82f6" stroke-width="3" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>2. N. auricularis magnus (C2–C3 – SS):</strong> A fülkagyló mögötti/alsó terület és a parotis-tájék bőrét innerválja.';"
+                        onclick="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>2. N. auricularis magnus (C2–C3 – SS):</strong> A fülkagyló mögötti/alsó terület és a parotis-tájék bőrét innerválja.';"/>
+                    <text x="305" y="83" text-anchor="end" font-size="9.5" font-weight="bold" fill="#2563eb">2. N. auricularis magnus</text>
 
-                    <!-- Vena jugularis interna (VJI - mély) -->
-                    <line x1="330" y1="65" x2="330" y2="305" stroke="#1d4ed8" stroke-width="11" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🌊 <strong>Vena jugularis interna (VJI):</strong> A <em>foramen jugulare</em>-ból indul, a <em>vagina carotica</em>-ban száll le, és a <em>v. subclavia</em>-val egyesülve alkotja az <strong>angulus venosus</strong>-t!';"
-                        onclick="document.getElementById('readout-t29-1').innerHTML='🌊 <strong>Vena jugularis interna (VJI):</strong> A <em>foramen jugulare</em>-ból indul, a <em>vagina carotica</em>-ban száll le, és a <em>v. subclavia</em>-val egyesülve alkotja az <strong>angulus venosus</strong>-t!';"/>
-                    <text x="315" y="295" text-anchor="end" font-size="10.5" font-weight="bold" fill="#1e3a8a">V. JUGULARIS INTERNA</text>
+                    <path d="M 450 140 L 210 185" fill="none" stroke="#3b82f6" stroke-width="3" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>3. N. transversus colli (C2–C3 – SS):</strong> A <em>m. SCM</em> felszínén harántul előrefutva a nyak elülső részének bőrét idegzi be.';"
+                        onclick="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>3. N. transversus colli (C2–C3 – SS):</strong> A <em>m. SCM</em> felszínén harántul előrefutva a nyak elülső részének bőrét idegzi be.';"/>
+                    <text x="202" y="188" text-anchor="end" font-size="9.5" font-weight="bold" fill="#2563eb">3. N. transversus colli</text>
 
-                    <!-- Vena jugularis externa (VJE - felületes) -->
-                    <path d="M 485 135 L 445 215 L 420 295" fill="none" stroke="#0ea5e9" stroke-width="5.5" style="cursor:pointer;"
-                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='💧 <strong>Vena jugularis externa (VJE):</strong> A <em>v. auricularis posterior</em> és a <em>v. retromandibularis</em> hátsó ágából jön létre; a <em>platysma</em> alatt, a <em>m. SCM</em> felszínén száll le, majd a <em>v. subclavia</em>-ba ömlik!';"
-                        onclick="document.getElementById('readout-t29-1').innerHTML='💧 <strong>Vena jugularis externa (VJE):</strong> A <em>v. auricularis posterior</em> és a <em>v. retromandibularis</em> hátsó ágából jön létre; a <em>platysma</em> alatt, a <em>m. SCM</em> felszínén száll le, majd a <em>v. subclavia</em>-ba ömlik!';"/>
-                    <text x="492" y="138" font-size="9.5" font-weight="bold" fill="#0284c7">V. auricularis post.</text>
-                    <text x="450" y="265" font-size="10" font-weight="bold" fill="#0284c7">V. JUGULARIS EXT.</text>
+                    <path d="M 450 195 L 250 250" fill="none" stroke="#3b82f6" stroke-width="3" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>4. Nn. supraclaviculares (mediales, intermedii, laterales – C3–C4 – SS):</strong> A kulcscsont felett/alatt a mellkas felső részének és a vállcsúcsnak érző idegei.';"
+                        onclick="document.getElementById('readout-t29-1').innerHTML='🔵 <strong>4. Nn. supraclaviculares (mediales, intermedii, laterales – C3–C4 – SS):</strong> A kulcscsont felett/alatt a mellkas felső részének és a vállcsúcsnak érző idegei.';"/>
+                    <text x="242" y="254" text-anchor="end" font-size="9.5" font-weight="bold" fill="#2563eb">4. Nn. supraclaviculares</text>
 
-                    <!-- V. subclavia -> Angulus venosus -->
-                    <line x1="330" y1="305" x2="530" y2="305" stroke="#1d4ed8" stroke-width="11" stroke-linecap="round"/>
-                    <circle cx="330" cy="305" r="8" fill="#ef4444"/>
-                    <text x="455" y="325" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e3a8a">V. subclavia (&rarr; Angulus venosus)</text>
+                    <!-- N. phrenicus (C3-C5) -->
+                    <path d="M 465 230 L 465 305" fill="none" stroke="#10b981" stroke-width="5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-1').innerHTML='🟢 <strong>Nervus phrenicus (C3–C5, főleg C4):</strong> A <em>m. scalenus anterior</em> elülső felszínén száll le, az <em>a. és v. subclavia</em> között lép a mellüregbe, és az <em>a. pericardiacophrenica</em> kíséretében éri el a rekeszizmot (<em>diaphragma</em>)!';"
+                        onclick="document.getElementById('readout-t29-1').innerHTML='🟢 <strong>Nervus phrenicus (C3–C5, főleg C4):</strong> A <em>m. scalenus anterior</em> elülső felszínén száll le, az <em>a. és v. subclavia</em> között lép a mellüregbe, és az <em>a. pericardiacophrenica</em> kíséretében éri el a rekeszizmot (<em>diaphragma</em>)!';"/>
+                    <text x="455" y="300" text-anchor="end" font-size="10.5" font-weight="bold" fill="#059669">N. PHRENICUS (C3–C5 &rarr; Diaphragma)</text>
                 </svg>
             </div>
             <div id="readout-t29-1" style="margin-top:0.75rem; padding:0.65rem 0.95rem; background:var(--card-bg); border:1.5px solid var(--accent); border-radius:8px; font-size:0.9rem; color:var(--text);">
-                💡 <strong>Kikérdező tipp:</strong> Vidd az egeret (vagy koppints) a vénákra, a <em>plexus pterygoideus</em>-ra vagy a <em>sinus cavernosus</em>-ra, és megjelenik a lefutás és a klinikai összefüggés!
+                💡 <strong>Kikérdező tipp:</strong> Vidd az egeret (vagy koppints) a fonat bőrágaira (1–4), az <em>ansa cervicalis</em>-ra vagy a <em>n. phrenicus</em>-ra, és megjelennek a szelvényi eredetek!
             </div>
             <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.85rem;">
-                <a href="https://www.google.com/search?tbm=isch&q=veins+of+head+and+neck+jugularis+interna+externa+facial+retromandibular+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                    🔍 Atlasz: A fej és a nyak vénái (oldalnézet) diagram
+                <a href="https://www.google.com/search?tbm=isch&q=plexus+cervicalis+cutaneous+branches+ansa+cervicalis+phrenic+nerve+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                    🔍 Atlasz: Plexus cervicalis ágai &amp; Punctum nervosum diagram
                 </a>
-                <a href="https://www.google.com/search?tbm=isch&q=danger+triangle+of+face+cavernous+sinus+pterygoid+plexus+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                    🔍 Atlasz: Veszélyes arci háromszög &amp; Sinus cavernosus összeköttetései diagram
+                <a href="https://www.google.com/search?tbm=isch&q=nervus+phrenicus+course+scalenus+anterior+diaphragm+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                    🔍 Atlasz: Nervus phrenicus nyaki és mellkasi lefutása diagram
                 </a>
             </div>
         </div>
 
-        <h3>3. A fej és a nyak nyirokelvezetése és nyirokcsomói</h3>
-        <p>A fej és a nyak nyirokelvezetése kétlépcsős szűrőrendszert alkot: a fej-nyak határán elhelyezkedő perifériás (regionális) nyirokcsomó-gyűrűből (<em>pericervicalis gyűrű</em>) a nyirok a nyaki érköteget kísérő mély nyaki nyirokcsomóláncba jut.</p>
+        <h3>3. A plexus brachialis supraclavicularis része (Pars supraclavicularis)</h3>
+        <p>A <strong>plexus brachialis</strong> (karfonat) a <strong>C5–C8</strong>, valamint a <strong>Th1</strong> (gyakran a <strong>C4</strong> rostjaival is kiegészülve = <em>prefixed plexus</em>) gerincvelői idegek <em>ramus ventralis</em>-aiból kialakuló, többszörösen átrendeződő idegfonat. A <em>plexus cervicalis</em> alatt található a nyak elülső-oldalsó határán.</p>
 
-        <h4>A) A fej felületes és mélyebb szöveteinek regionális nyirokelvezetése (sávszerű elrendeződés)</h4>
+        <h4>A) A törzsek (Trunci) és a kötegek (Fasciculi) kialakulása</h4>
         <ul>
-            <li><strong>1. Felületes szövetek (5 regionális nyirokcsomó-csoport, hátulról előre):</strong>
-                <ol>
-                    <li><strong>Nodi lymphoidei occipitales:</strong> A hátsó nyakszirti tájékról a <em>m. sternocleidomastoideus</em> mögötti csomókba vezetődik a nyirok.</li>
-                    <li><strong>Nodi lymphoidei retroauriculares (mastoidei):</strong> A fül mögötti fejtetősávról, a fülkagyló hátsó felszínéről, a külső hallójárat hátsó faláról és részben a dobüreg hátsó részéből gyűjtik a nyirkot.</li>
-                    <li><strong>Nodi lymphoidei parotidei superficiales (és profundi):</strong> A fültől előre eső fejtetősávról, a homlokról és a felső szemhéjról (valamint a parotisból és a külső hallójárat elülső faláról) a fültőmirigybe felületesen és mélyen ágyazott csomókba vezetődik a nyirok.</li>
-                    <li><strong>Nodi lymphoidei submandibulares:</strong> Az orr felületes szöveteiből, az alsó szemhéjból és a felső ajakból (valamint a fogak többségéből) ebbe a csoportba vezetődik a nyirok.</li>
-                    <li><strong>Nodi lymphoidei submentales:</strong> Az alsó ajak középső részéből, az elülső alsó fogakból (metszőfogak) és a mögöttük lévő nyelv alatti tájék elülső részéből valamint a nyelvcsúcsból ide drenál a nyirok.</li>
-                </ol>
-                <p><em>Továbbvezetődés:</em> Ezekből a csomókból a nyirok a nyaki érköteget körülvevő nagyszámú mély nyaki nyirokcsomókba jut (<strong>nodi lymphoidei cervicales profundi</strong>), amelyek ebben az esetben <strong>secunder nyirokcsomóknak</strong> tekinthetők.</p>
-            </li>
-            <li><strong>2. A fej mélyebb szöveteinek és a koponyaüregeknek a nyirokelvezetése:</strong>
+            <li><strong>1. Trunci (idegtörzsek – a hiatus scaleni-ben):</strong> Mivel a <em>m. scalenus anterior</em> és <em>medius</em> az 1. bordán való tapadásuk felé haladva elválik egymástól, a <em>plexus brachialis</em> <strong>három törzse (trunci)</strong> a két izom által közrefogott <strong>hiatus scaleni</strong>-ben (az <em>a. subclavia</em> felett és mögött) található:
                 <ul>
-                    <li><em>Fejfal mélyebb szövetei:</em> Szintén sávszerű módon mennek végbe a már említett felületes csoportok felé (hátsó sáv &rarr; <em>occipitales</em>, oldalsó sáv &rarr; <em>retroauriculares</em>).</li>
-                    <li><em>Az agyvelő és a dura mater különleges helyzete (vizsgakérdés!):</em> <strong>Az agyvelőnek NINCSENEK klasszikus nyirokerei!</strong> A központi idegrendszernek sajátos, a szervezet többi sejt közötti rendszerétől elválasztott vérpályán kívüli nedvtere van: ez a <strong>liquortér</strong> (<em>liquor cerebrospinalis</em>, amely a <em>granulationes arachnoideales</em>-en át a vénás sinusokba, illetve az agyidegek hüvelyei mentén az orrüregi/nyaki nyirokerekbe szívódik fel – modern kutatások szerint a <em>sinus durae matris</em> mentén futó meningealis nyirokerek is részt vesznek ebben). A <strong>dura mater külső rétegében viszont már van valódi nyirokelvezetés</strong>, ami a koponyafal megfelelő sávja szerint kerül az elsődleges nyirokcsomókba!</li>
+                    <li><strong>Truncus superior:</strong> A <strong>C5 és C6</strong> szelvényből (gyakran C4-gyel) alakul ki.</li>
+                    <li><strong>Truncus medius:</strong> Önállóan a <strong>C7</strong> szelvényből folytatódik.</li>
+                    <li><strong>Truncus inferior:</strong> A <strong>C8 és Th1</strong> szelvényből egyesül (közvetlenül az 1. bordán, az <em>a. subclavia</em> mögött).</li>
                 </ul>
             </li>
-            <li><strong>3. Az arc mélyebb szöveteinek nyirokelvezetése (3 fő útvonal):</strong>
+            <li><strong>2. Divisiones (osztódások) &rarr; Fasciculi (kötegek a fossa axillarisban):</strong> Mindhárom <em>truncus</em> egy elülső (<em>divisio anterior</em> – flexorokhoz) és egy hátulsó (<em>divisio posterior</em> – extensorokhoz) ágra oszlik, majd a <em>clavicula</em> és az 1. borda között áthaladva belépnek a hónaljárokba (<em>fossa axillaris</em>), ahol három <strong>fasciculus</strong>-ba rendeződnek az <strong>arteria axillaris</strong> körül (nevüket az <em>a. axillaris</em>-hoz viszonyított helyzetükről kapták!):
                 <ul>
-                    <li><strong>Nodi lymphoidei retropharyngeales:</strong> A garat felső részéből, a dobüregből, a <em>palatum molle</em>-ból, a szájüreg hátsó részéből, az orrüreg hátsó részéből és az <em>orbita</em> mélyéből a garat hátsó falán ülő csomókba vezet.</li>
-                    <li><strong>Nodi lymphoidei submandibulares:</strong> Az orrüreg elülső részéből és a nyelv középső szakaszából, a felső fogakból, a szájpadból és az oldalsó alsó fogakból ide kerül a nyirok.</li>
-                    <li><strong>Nodi lymphoidei cervicales profundi (közvetlen elvezetés!):</strong> A <strong>tonsilla palatina</strong>, a <strong>nyelvgyök (radix linguae)</strong> és a <strong>bölcsességfogak (M3)</strong> területéről a nyirok <strong>közvetlenül</strong> jut az elülső felső mély nyaki nyirokcsomókba (különösen a <em>nodus jugulodigastricus</em>-ba)!</li>
+                    <li><strong>Fasciculus lateralis:</strong> A <em>truncus superior</em> és <em>medius</em> elülső osztódásainak folytatása.</li>
+                    <li><strong>Fasciculus medialis:</strong> A <em>truncus inferior</em> elülső osztódásának folytatása (a jegyzet szövegének pontosítása: a <em>truncus inferior</em>-ból származik, míg a <em>lateralis</em> a <em>superior + medius</em> elülső ágaiból!).</li>
+                    <li><strong>Fasciculus posterior:</strong> Mindhárom törzs (<em>superior, medius, inferior</em>) hátulsó osztódásaiból (<em>divisiones posteriores</em>) kap rostokat.</li>
                 </ul>
             </li>
         </ul>
 
-        <h4>B) A nyak nyirokelvezetése és a Truncus jugularis</h4>
+        <h4>B) A plexus brachialis supraclavicularis (vállövi) ágai (4 ág)</h4>
+        <p>A <em>pars supraclavicularis</em> ágai még a kulcscsont felett, közvetlenül a nyaki gyökerekből vagy a <em>truncus superior</em>-ból lépnek ki, és a vállöv izmait idegzik be (mindegyik motoros – <strong>SM</strong>):</p>
         <ul>
-            <li><strong>1. Felületes nyaki nyirokcsomók (Nodi lymphoidei cervicales superficiales):</strong> A nyakon, a <strong>vena jugularis externa</strong> mentén (a <em>m. SCM</em> külső felszínén) találunk néhány kisebb jelentőségű felületes nyirokcsomót, amelyek a nyak bőréből gyűjtik a nyirkot, és a mély nyaki nyirokcsomókba vezetik tovább.</li>
-            <li><strong>2. Mély nyaki nyirokcsomók (Nodi lymphoidei cervicales profundi – kb. 30 darab):</strong> A nyaki érköteget (különösen a <strong>vena jugularis interna</strong>-t) körülvevő fő nyirokcsomólánc a <em>vagina carotica</em> mentén a koponyaalaptól a kulcscsontig. Ezek a fej másodlagos és harmadlagos nyirokcsomói, de bizonyos mély arci területeknek (<em>tonsilla palatina, radix linguae, bölcsességfogak</em>) a <strong>primer nodusai</strong> is!
-                <br>&bull; <em>Két nevezetes klinikai csomópontjuk:</em>
-                <br>&nbsp;&nbsp;– <strong>Nodus jugulodigastricus (Küttner-csomó):</strong> A <em>m. digastricus venter posterior</em>-ja és a <em>v. jugularis interna</em> találkozásánál – a <em>tonsilla palatina</em> és a nyelvgyök elsődleges őrszem-nyirokcsomója (mandulagyulladásnál duzzadt!).
-                <br>&nbsp;&nbsp;– <strong>Nodus juguloomohyoideus:</strong> A <em>m. omohyoideus</em> köztes ina és a <em>v. jugularis interna</em> kereszteződésénél – a nyelv nyirkának fő gyűjtőpontja!</li>
-            <li><strong>3. Nyaki zsigerek nyirokelvezetése és a Nodi lymphoidei tracheales:</strong> A nyaki zsigerek (gége, pajzsmirigy, garat, nyelőcső) nyirka e szervek erei mentén a mély nyaki nyirokcsomók különböző csoportjaihoz vezet. Különleges helyzetű a <em>trachea</em>, amely körül néhány nyirokcsomó található: <strong>nodi lymphoidei tracheales (paratracheales)</strong>, amelyek a gége (<em>rima glottidis</em> alatt), a trachea és a nyelőcső bizonyos részeinek elsődleges nodusai.</li>
-            <li><strong>4. Truncus jugularis &rarr; Angulus venosus (Pirogov-szöglet):</strong> A <em>v. jugularis interna</em> körüli mély nodusokat összekötő nyirokerek nagyobb nyiroktörzsbe folynak össze (<strong>truncus jugularis dexter et sinister</strong>), amely a kulcscsont feletti árok mélyében csatlakozik a többi fő nyirokvezetékhez:
-                <ul>
-                    <li><em>Jobb oldalon:</em> <strong>Truncus jugularis dexter</strong> + <em>truncus subclavius dexter</em> + <em>truncus bronchomediastinalis dexter</em> &rarr; <strong>ductus lymphaticus dexter</strong> &rarr; <strong>angulus venosus dexter</strong>.</li>
-                    <li><em>Bal oldalon:</em> <strong>Truncus jugularis sinister</strong> + <em>truncus subclavius sinister</em> + <em>truncus bronchomediastinalis sinister</em> + <strong>ductus thoracicus</strong> &rarr; <strong>angulus venosus sinister</strong>!</li>
-                </ul>
-            </li>
+            <li><strong>1. Nervus dorsalis scapulae (&larr; C5 gyökér / truncus superior):</strong> Átfúrja a <em>m. scalenus medius</em>-t, hátrafelé húzódik a <em>m. levator scapulae</em> alatt, és motorosan innerválja a <strong>musculi rhomboidei (minor et major)</strong>-t (valamint részben a <em>m. levator scapulae</em>-t).</li>
+            <li><strong>2. Nervus thoracicus longus (&larr; C5, C6, C7 gyökerekből, a truncusok előtt/mögött):</strong> A karfonat mögött száll le függőlegesen a mellkas oldalsó falára (a <em>linea axillaris media</em>-ban), ott pontosan a <strong>musculus serratus anterior külső felületén</strong> halad és innerválja azt!
+                <br>&bull; <em>Klinikum (Scapula alata):</em> Sérülésekor (pl. hónalji nyirokcsomó-eltávolításkor / emlőműtétnél) a <em>m. serratus anterior</em> megbénul, nem szorítja a lapockát a mellkasfalhoz &rarr; a lapocka medialis széle szárnyszerűen eláll (<strong>scapula alata</strong>), és a beteg nem tudja 90&deg; fölé emelni a karját!</li>
+            <li><strong>3. Nervus suprascapularis (&larr; truncus superior [C5–C6]):</strong> Az <em>a. suprascapularis</em> kíséretében hátra-oldalra halad az <strong>incisura scapulae</strong>-hoz, és a <em>ligamentum transversum scapulae superius</em> <strong>ALATT</strong> lép be a <em>fossa supraspinata</em>-ba (míg az <em>a. suprascapularis</em> a szalag FELETT halad: <em>„Army [Artery] goes over the bridge, Navy [Nerve] goes under the bridge!”</em>), majd megkerülve a <em>spina scapulae</em> tövét átlép a <em>fossa infraspinata</em>-ba, és innerválja a <strong>musculus supraspinatus</strong>-t és a <strong>musculus infraspinatus</strong>-t.</li>
+            <li><strong>4. Nervus subclavius (&larr; truncus superior [C5–C6]):</strong> Vékony ideg, amely az <em>a. et v. subclavia</em> előtt száll le a kulcscsont alá, és a <strong>musculus subclavius</strong>-t innerválja.</li>
         </ul>
 
-        <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin:0.9rem 0 1.3rem 0;">
-            <a href="https://www.google.com/search?tbm=isch&q=lymph+nodes+of+head+and+neck+pericervical+ring+deep+cervical+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                🔍 Atlasz: A fej és a nyak nyirokcsomói (oldalnézet) diagram
-            </a>
-            <a href="https://www.google.com/search?tbm=isch&q=truncus+jugularis+ductus+thoracicus+angulus+venosus+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
-                🔍 Atlasz: Truncus jugularis &amp; Angulus venosus nyirokbeömlései diagram
-            </a>
+        <div class="mnemonic-box">
+            <strong>⚠️ Vizsgabuktató Elkülönítés – Supraclavicularis vs. Infraclavicularis (Fasciculus) ágak!</strong><br>
+            A jegyzetben külön kiemelt vizsgacsapda: az alábbi idegek NEM a <em>pars supraclavicularis</em> ágai, hanem már a kulcscsont alatt, a <strong>fasciculusokból (pars infraclavicularis)</strong> erednek:<br>
+            • <strong>N. subscapularis (superior et inferior):</strong> <em>FASCICULUS POSTERIOR</em> ágai! (<em>M. subscapularis</em> és <em>m. teres major</em> innerválása.)<br>
+            • <strong>N. thoracodorsalis:</strong> <em>FASCICULUS POSTERIOR</em> ága! (<em>M. latissimus dorsi</em> innerválása.)<br>
+            • <strong>N. pectoralis medialis:</strong> <em>FASCICULUS MEDIALIS</em> ága! (<em>M. pectoralis minor</em> és <em>major</em> ellátása.)<br>
+            • <strong>N. pectoralis lateralis:</strong> <em>FASCICULUS LATERALIS</em> ága! (<em>M. pectoralis major</em> ellátása.)
+        </div>
+
+        <!-- 2. INTERAKTÍV SVG ÁBRA: A PLEXUS BRACHIALIS SUPRACLAVICULARIS RÉSZE -->
+        <div class="visual-aid-box" style="background:var(--bg); border:1.5px solid var(--border); border-radius:10px; padding:1.2rem; margin:1.3rem 0;">
+            <div style="font-weight:800; font-size:0.95rem; color:var(--primary); margin-bottom:0.7rem;">
+                🗺️ Interaktív Idegi Séma: A Plexus brachialis supraclavicularis része (Gyökerek &rarr; Trunci &rarr; 4 ág)
+            </div>
+            <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:0.5rem; background:var(--card-bg); border:1px solid var(--border); border-radius:8px; padding:0.6rem 0.9rem; margin-bottom:0.8rem; font-size:0.82rem; font-weight:700; color:var(--text);">
+                <span>⬆️ <strong>FELÜL / CRANIALIS (C5 gyökér &amp; Truncus superior)</strong></span>
+                <span>⬇️ <strong>ALUL / CAUDALIS (C8–Th1 &amp; Truncus inferior)</strong></span>
+                <span>⬅️ <strong>MEDIALIS (Gerincvelői gyökerek)</strong> &harr; <strong>LATERALIS (Clavicula &amp; Fossa axillaris)</strong> ➡️</span>
+            </div>
+            <div style="text-align:center;">
+                <svg viewBox="0 0 640 320" style="max-width:100%; height:auto; border-radius:8px; background:var(--card-bg); border:1px solid var(--border);">
+                    <!-- Gyökerek C5-Th1 bal oldalon -->
+                    <rect x="35" y="30" width="48" height="26" rx="5" fill="#e2e8f0" stroke="#475569" stroke-width="2"/><text x="59" y="47" text-anchor="middle" font-size="10" font-weight="bold">C5</text>
+                    <rect x="35" y="80" width="48" height="26" rx="5" fill="#e2e8f0" stroke="#475569" stroke-width="2"/><text x="59" y="97" text-anchor="middle" font-size="10" font-weight="bold">C6</text>
+                    <rect x="35" y="135" width="48" height="26" rx="5" fill="#e2e8f0" stroke="#475569" stroke-width="2"/><text x="59" y="152" text-anchor="middle" font-size="10" font-weight="bold">C7</text>
+                    <rect x="35" y="190" width="48" height="26" rx="5" fill="#e2e8f0" stroke="#475569" stroke-width="2"/><text x="59" y="207" text-anchor="middle" font-size="10" font-weight="bold">C8</text>
+                    <rect x="35" y="240" width="48" height="26" rx="5" fill="#e2e8f0" stroke="#475569" stroke-width="2"/><text x="59" y="257" text-anchor="middle" font-size="10" font-weight="bold">Th1</text>
+
+                    <!-- Trunci -->
+                    <!-- Truncus superior (C5+C6) -->
+                    <path d="M 83 43 L 165 68 L 280 68" fill="none" stroke="#eab308" stroke-width="5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-2').innerHTML='🟡 <strong>Truncus superior (C5–C6 [+C4]):</strong> A <em>hiatus scaleni</em> legfelső törzse. Innen indul a <em>n. suprascapularis</em> és a <em>n. subclavius</em>!';"
+                        onclick="document.getElementById('readout-t29-2').innerHTML='🟡 <strong>Truncus superior (C5–C6 [+C4]):</strong> A <em>hiatus scaleni</em> legfelső törzse. Innen indul a <em>n. suprascapularis</em> és a <em>n. subclavius</em>!';"/>
+                    <line x1="83" y1="93" x2="165" y2="68" stroke="#eab308" stroke-width="5"/>
+                    <text x="225" y="57" text-anchor="middle" font-size="10" font-weight="bold" fill="#a16207">Truncus superior</text>
+
+                    <!-- Truncus medius (C7) -->
+                    <line x1="83" y1="148" x2="280" y2="148" stroke="#f97316" stroke-width="5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-2').innerHTML='🟠 <strong>Truncus medius (C7):</strong> Önállóan a C7-es gyökérből folytatódik a <em>hiatus scaleni</em>-ben.';"
+                        onclick="document.getElementById('readout-t29-2').innerHTML='🟠 <strong>Truncus medius (C7):</strong> Önállóan a C7-es gyökérből folytatódik a <em>hiatus scaleni</em>-ben.';"/>
+                    <text x="225" y="138" text-anchor="middle" font-size="10" font-weight="bold" fill="#ea580c">Truncus medius</text>
+
+                    <!-- Truncus inferior (C8+Th1) -->
+                    <path d="M 83 203 L 165 228 L 280 228" fill="none" stroke="#ef4444" stroke-width="5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-2').innerHTML='🔴 <strong>Truncus inferior (C8–Th1):</strong> Közvetlenül az 1. borda felett, az <em>a. subclavia</em> mögött fekszik a <em>hiatus scaleni</em>-ben.';"
+                        onclick="document.getElementById('readout-t29-2').innerHTML='🔴 <strong>Truncus inferior (C8–Th1):</strong> Közvetlenül az 1. borda felett, az <em>a. subclavia</em> mögött fekszik a <em>hiatus scaleni</em>-ben.';"/>
+                    <line x1="83" y1="253" x2="165" y2="228" stroke="#ef4444" stroke-width="5"/>
+                    <text x="225" y="218" text-anchor="middle" font-size="10" font-weight="bold" fill="#dc2626">Truncus inferior</text>
+
+                    <!-- 4 Supraclavicularis ág -->
+                    <!-- 1. N. dorsalis scapulae (C5) -->
+                    <path d="M 115 43 L 145 18 L 270 18" fill="none" stroke="#8b5cf6" stroke-width="3.5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-2').innerHTML='1️⃣ <strong>N. dorsalis scapulae (&larr; C5):</strong> Átfúrja a <em>m. scalenus medius</em>-t, és innerválja a <strong>mm. rhomboidei</strong>-t (és részben a <em>m. levator scapulae</em>-t).';"
+                        onclick="document.getElementById('readout-t29-2').innerHTML='1️⃣ <strong>N. dorsalis scapulae (&larr; C5):</strong> Átfúrja a <em>m. scalenus medius</em>-t, és innerválja a <strong>mm. rhomboidei</strong>-t (és részben a <em>m. levator scapulae</em>-t).';"/>
+                    <text x="278" y="22" font-size="9.5" font-weight="bold" fill="#7c3aed">1. N. dorsalis scapulae (Mm. rhomboidei)</text>
+
+                    <!-- 2. N. thoracicus longus (C5-C7) -->
+                    <path d="M 105 43 L 105 295 L 265 295" fill="none" stroke="#10b981" stroke-width="3.5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-2').innerHTML='2️⃣ <strong>N. thoracicus longus (&larr; C5, C6, C7):</strong> A karfonat mögött száll le a mellkas oldalfalára, és a <strong>m. serratus anterior</strong> külső felszínén futva innerválja azt (sérülése: <em>scapula alata</em>)!';"
+                        onclick="document.getElementById('readout-t29-2').innerHTML='2️⃣ <strong>N. thoracicus longus (&larr; C5, C6, C7):</strong> A karfonat mögött száll le a mellkas oldalfalára, és a <strong>m. serratus anterior</strong> külső felszínén futva innerválja azt (sérülése: <em>scapula alata</em>)!';"/>
+                    <line x1="105" y1="93" x2="120" y2="93" stroke="#10b981" stroke-width="2.5"/>
+                    <line x1="105" y1="148" x2="120" y2="148" stroke="#10b981" stroke-width="2.5"/>
+                    <text x="272" y="299" font-size="9.5" font-weight="bold" fill="#059669">2. N. thoracicus longus (M. serratus ant.)</text>
+
+                    <!-- 3. N. suprascapularis (Truncus sup.) -->
+                    <path d="M 225 68 L 265 38 L 365 38" fill="none" stroke="#3b82f6" stroke-width="3.5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-2').innerHTML='3️⃣ <strong>N. suprascapularis (&larr; Truncus superior):</strong> Az <em>incisura scapulae</em>-n (a <em>lig. transversum scapulae sup.</em> ALATT!) átlépve a <strong>m. supraspinatus</strong>-t és <strong>m. infraspinatus</strong>-t innerválja.';"
+                        onclick="document.getElementById('readout-t29-2').innerHTML='3️⃣ <strong>N. suprascapularis (&larr; Truncus superior):</strong> Az <em>incisura scapulae</em>-n (a <em>lig. transversum scapulae sup.</em> ALATT!) átlépve a <strong>m. supraspinatus</strong>-t és <strong>m. infraspinatus</strong>-t innerválja.';"/>
+                    <text x="372" y="42" font-size="9.5" font-weight="bold" fill="#2563eb">3. N. suprascapularis (M. supra- &amp; infraspinatus)</text>
+
+                    <!-- 4. N. subclavius (Truncus sup.) -->
+                    <path d="M 245 68 L 285 95 L 365 95" fill="none" stroke="#0d9488" stroke-width="3.5" style="cursor:pointer;"
+                        onmouseenter="document.getElementById('readout-t29-2').innerHTML='4️⃣ <strong>N. subclavius (&larr; Truncus superior):</strong> Lefelé száll a kulcscsont alá, és a <strong>m. subclavius</strong>-t innerválja.';"
+                        onclick="document.getElementById('readout-t29-2').innerHTML='4️⃣ <strong>N. subclavius (&larr; Truncus superior):</strong> Lefelé száll a kulcscsont alá, és a <strong>m. subclavius</strong>-t innerválja.';"/>
+                    <text x="372" y="99" font-size="9.5" font-weight="bold" fill="#0f766e">4. N. subclavius (M. subclavius)</text>
+
+                    <!-- Clavicula elválasztó vonal -->
+                    <line x1="310" y1="115" x2="310" y2="270" stroke="#64748b" stroke-width="4" stroke-dasharray="6,4"/>
+                    <text x="322" y="265" font-size="10" font-weight="bold" fill="#475569">CLAVICULA &rarr; Fasciculi (infraclavicularis)</text>
+                </svg>
+            </div>
+            <div id="readout-t29-2" style="margin-top:0.75rem; padding:0.65rem 0.95rem; background:var(--card-bg); border:1.5px solid var(--accent); border-radius:8px; font-size:0.9rem; color:var(--text);">
+                💡 <strong>Kikérdező tipp:</strong> Vidd az egeret (vagy koppints) a törzsekre és a 4 supraclavicularis ágra (1–4), és megjelenik a pontos eredés és az ellátott izom!
+            </div>
+            <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-top:0.85rem;">
+                <a href="https://www.google.com/search?tbm=isch&q=plexus+brachialis+supraclavicular+branches+trunks+cords+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                    🔍 Atlasz: Plexus brachialis felépítése &amp; supraclavicularis ágai diagram
+                </a>
+                <a href="https://www.google.com/search?tbm=isch&q=nervus+suprascapularis+incisura+scapulae+thoracicus+longus+diagram" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:0.35rem; background:var(--card-bg); border:1.5px solid var(--primary-light); color:var(--primary); padding:0.35rem 0.75rem; border-radius:20px; font-size:0.82rem; font-weight:700; text-decoration:none;">
+                    🔍 Atlasz: N. suprascapularis &amp; N. thoracicus longus lefutása diagram
+                </a>
+            </div>
         </div>
     `
 });
