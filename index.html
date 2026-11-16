@@ -1,0 +1,865 @@
+<!--
+================================================================================
+AI ANATÓMIA SZIGORLAT TÉTELDOLGOZÓ RENDSZER – KÖTELEZŐ SZABÁLYRENDSZER ÉS SABLON
+================================================================================
+HA EZT AZ INDEX.HTML FÁJLT ÉS EGY VAGY TÖBB JEGYZETKÉPET KAPSZ, SZIGORÚAN KÖVESD 
+AZ ALÁBBI SZABÁLYOKAT A TÉTEL KIDOLGOZÁSAKOR:
+
+1. 100%-OS TELJESSÉG (NULLA KIHAGYÁS):
+   - A feltöltött képeken szereplő MINDEN egyes latin kifejezést, képletet, ágat, 
+     határt, rövidítést, nyilat és rajzi megjegyzést maradéktalanul építs be a 
+     kidolgozásba.
+   - A cél a mély, logikus megértés és a magyarázó kibontás, SOHA nem a rövidítés 
+     vagy az anyag elhagyása.
+
+2. LOGIKAI, NÉV-DEKÓDOLÓ ÉS MEMORIATECHNIKAI ÉPÍTKEZÉS:
+   - Nevek dekódolása: Minden jelentősebb latin elnevezésnél magyarázd meg, MIÉRT 
+     úgy hívják (pl. eredés/tapadás: m. sternocleidomastoideus = sternum + clavicula 
+     + proc. mastoideus; alak: m. trapezius, sella turcica, os sphenoidale).
+   - Mechanikai és térbeli ok-okozat: Eredésből és tapadásból vezesd le az izom 
+     működését; régióknál/nyílásoknál térképként mutasd be, mi honnan hová tart.
+   - Rendszerszintű emlékeztetők (visszacsatolások): Minden ismétlődő anatómiai 
+     alapelv előkerülésekor tegyél be egy rövid emlékeztető kapaszkodót:
+     * Érző ganglion = csak pseudounipolaris perikaryonok ülnek itt, NINCS szinapszis!
+     * Vegetatív ganglion = valódi átkapcsolóállomás (preganglionaris → postganglionaris).
+     * Garatív-származékok logikája (melyik ív → melyik izomcsoport → melyik agyideg).
+     * Fogorvosi / klinikai vonatkozások (vezetéses érzéstelenítés, idegsérülés 
+       kiesési tünetei, gyulladás terjedési útvonalai).
+
+3. KÉTRÉTEGŰ FELÉPÍTÉS (MINDEN TÉTELNÉL KÖTELEZŐ):
+   - [LAYER 1 - summaryHtml]: "⚡ 3 PERCES LOGIKAI ELŐHÍVÓ VÁZLAT"
+     Tömör, logikai nyilakkal (→) összekötött ok-okozati kulcsszólánc. Nem 
+     véletlenszerű szavak halmaza, hanem egy logikai útvonal, amelyből 3 perc alatt 
+     végigmondható és fejben kibontható a teljes tétel.
+   - [LAYER 2 - html]: "🧠 MÉLY MAGYARÁZÓ KIDOLGOZÁS"
+     Részletes, logikusan tagolt, magyarázó szöveg kiemelt latin terminológiával 
+     (Terminologia Anatomica), név-dekódolásokkal és emlékeztető dobozokkal, 
+     hogy 1-2 olvasásból kristálytisztán összeálljon a kép.
+
+4. KIMENETI FORMÁTUM (KÖZVETLENÜL MENTHETŐ .JS FÁJL A 'neuro/', 'fej-nyak/' VAGY 'zsigertan/' MAPPÁBA):
+   - A választ egyetlen, közvetlenül bemásolható JavaScript fájlként add vissza 
+     (pl. neuro/tetel1.js, fej-nyak/tetel1.js, zsigertan/tetel1.js), pontosan az 
+     alábbi struktúrában (LaTeX $ jelek használata TILOS, tiszta HTML tageket 
+     használj):
+
+window.TETELEK.push({
+    num: 1,
+    id: "tetel-1",
+    title: "1. Tétel: [A tétel pontos címe]",
+    shortName: "[Rövid név a menühöz]",
+    summaryHtml: `
+        <ul>
+            <li><strong>[Fő logikai egység 1]:</strong> kulcsszó → ok → következmény</li>
+            <li><strong>[Fő logikai egység 2]:</strong> kulcsszó → ok → következmény</li>
+        </ul>
+    `,
+    html: `
+        <h3>1. [Alfejezet címe]</h3>
+        <p>Logikus, magyarázó kifejtés a <strong>latin kifejezések</strong> kiemelésével...</p>
+        <div class="mnemonic-box">
+            <strong>💡 Emlékeztető & Logikai kapocs:</strong> Ide jön a név-magyarázat, 
+            ganglion-szabály, vagy fogorvosi/klinikai összefüggés.
+        </div>
+    `
+});
+================================================================================
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatómia Szigorlat - Logikai Jegyzetrendszer</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --primary-light: #2b6cb0;
+            --accent: #d69e2e;
+            --bg: #f7fafc;
+            --card-bg: #ffffff;
+            --text: #2d3748;
+            --text-muted: #718096;
+            --border: #e2e8f0;
+            --header-grad: linear-gradient(135deg, #1a365d, #2b6cb0);
+            --banner-grad: linear-gradient(135deg, #2b6cb0, #1a365d);
+            --layer1-bg: #ebf8ff;
+            --layer1-border: #3182ce;
+            --mnemonic-bg: #fffaf0;
+            --mnemonic-border: #dd6b20;
+        }
+
+        body.dark-theme {
+            --primary: #90cdf4;
+            --primary-light: #63b3ed;
+            --accent: #ecc94b;
+            --bg: #0b1120;
+            --card-bg: #1e293b;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --header-grad: linear-gradient(135deg, #0f172a, #1e293b);
+            --banner-grad: linear-gradient(135deg, #1e293b, #334155);
+            --layer1-bg: #172554;
+            --layer1-border: #60a5fa;
+            --mnemonic-bg: #27201c;
+            --mnemonic-border: #ed8936;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; transition: background 0.2s, color 0.2s; }
+
+        header { background: var(--header-grad); color: white; padding: 1.8rem 1rem; text-align: center; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        header h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+        header p.subtitle { font-size: 0.95rem; opacity: 0.85; }
+
+        header > .kj-logo {
+            position: absolute;
+            left: 24px;
+            top: 20px;
+            color: #ff5a00 !important;
+            font-size: 2.2rem;
+            font-weight: 900;
+            line-height: 1;
+            letter-spacing: .05em;
+            text-shadow: 0 0 8px rgba(255,90,0,.4);
+            cursor: pointer;
+            user-select: none;
+            transition: transform 0.15s ease;
+        }
+        header > .kj-logo:hover { transform: scale(1.08); }
+
+        .theme-toggle-btn {
+            position: absolute;
+            right: 24px;
+            top: 20px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1.5px solid rgba(255, 255, 255, 0.4);
+            color: white;
+            padding: 0.45rem 0.9rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .theme-toggle-btn:hover { background: rgba(255, 255, 255, 0.3); }
+
+        .container { max-width: 1120px; margin: 1.8rem auto; padding: 0 1rem; }
+
+        /* VEZÉRLŐSÁV */
+        .toggle-all-bar { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; margin-bottom: 1.2rem; flex-wrap: wrap; background: var(--card-bg); padding: 0.8rem 1.2rem; border-radius: 10px; border: 1px solid var(--border); }
+        .bar-group { display: flex; gap: 0.45rem; flex-wrap: wrap; align-items: center; }
+        .toggle-btn { background: var(--bg); border: 1px solid var(--border); padding: 0.45rem 0.85rem; border-radius: 6px; font-weight: 600; cursor: pointer; font-size: 0.84rem; color: var(--primary); transition: all 0.15s; }
+        .toggle-btn:hover { background: var(--primary-light); color: white; border-color: var(--primary-light); }
+        .toggle-btn.active-mode { background: var(--primary-light); color: white; border-color: var(--primary-light); }
+
+        /* OLDALSÓ LEBEGŐ GOMBOK */
+        .floating-side-triggers {
+            position: fixed;
+            right: 0;
+            top: 38%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            z-index: 999;
+        }
+        .side-trigger-btn {
+            background: var(--primary-light);
+            color: white;
+            border: none;
+            border-radius: 10px 0 0 10px;
+            padding: 0.7rem 0.9rem;
+            font-size: 0.9rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: -2px 4px 12px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            transition: transform 0.15s ease;
+        }
+        .side-trigger-btn:hover { transform: translateX(-4px); filter: brightness(1.1); }
+        .side-trigger-btn.alt-btn { background: var(--primary); }
+
+        /* DRAWER PANELEK */
+        .side-drawer-panel {
+            position: fixed;
+            right: 0;
+            top: 24%;
+            width: 340px;
+            max-width: 88vw;
+            background: var(--card-bg);
+            border: 2px solid var(--border);
+            border-right: none;
+            border-radius: 14px 0 0 14px;
+            padding: 1.1rem;
+            box-shadow: -6px 8px 25px rgba(0,0,0,0.25);
+            z-index: 1050;
+            transform: translateX(110%);
+            transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .side-drawer-panel.is-open { transform: translateX(0%); }
+        .drawer-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.8rem; }
+        .drawer-header h4 { font-size: 1rem; color: var(--primary); margin: 0; }
+        .drawer-close-btn { background: none; border: none; color: var(--text-muted); font-size: 1.5rem; font-weight: bold; cursor: pointer; line-height: 1; }
+        .drawer-close-btn:hover { color: #e53e3e; }
+
+        .drawer-input-row { display: flex; gap: 0.4rem; margin-bottom: 0.6rem; }
+        .drawer-input-row input { flex: 1; padding: 0.55rem 0.8rem; border: 1.5px solid var(--border); border-radius: 8px; outline: none; background: var(--bg); color: var(--text); font-size: 0.95rem; }
+        .drawer-input-row input:focus { border-color: var(--primary-light); }
+        
+        .drawer-nav-bar { display: flex; align-items: center; justify-content: space-between; gap: 0.4rem; }
+        .search-counter-badge { font-size: 0.85rem; font-weight: 700; color: var(--text-muted); padding: 0.25rem 0.5rem; border-radius: 4px; background: var(--border); white-space: nowrap; }
+        .search-nav-btn { background: var(--card-bg); border: 1px solid var(--border); color: var(--text); padding: 0.35rem 0.7rem; border-radius: 6px; font-size: 0.85rem; cursor: pointer; font-weight: bold; }
+        .search-nav-btn:hover:not(:disabled) { background: var(--primary-light); color: white; }
+        .search-nav-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+        .drawer-scroll-area { max-height: 60vh; overflow-y: auto; padding-right: 4px; }
+        .drawer-cat-title { font-size: 0.82rem; font-weight: 800; color: var(--primary); margin: 0.75rem 0 0.4rem 0; padding-bottom: 0.2rem; border-bottom: 1px solid var(--border); text-transform: uppercase; letter-spacing: 0.03em; }
+        .compact-lecture-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.45rem; }
+        .compact-lecture-btn { background: var(--bg); border: 1px solid var(--border); color: var(--text); border-radius: 6px; padding: 0.45rem 0.1rem; font-weight: 700; font-size: 0.9rem; text-align: center; cursor: pointer; transition: all 0.12s; }
+        .compact-lecture-btn:hover { background: var(--primary-light); color: white; border-color: var(--primary-light); transform: scale(1.06); }
+        .compact-lecture-btn.top-anchor-btn { background: var(--border); color: var(--primary); width: 100%; margin-bottom: 0.3rem; }
+
+        .search-match-highlight { background-color: #fef08a !important; color: #854d0e !important; padding: 1px 3px; border-radius: 3px; }
+        .search-match-highlight.active-match { background-color: #ff9800 !important; color: #ffffff !important; box-shadow: 0 0 10px #ff9800; outline: 2px solid #e65100; }
+
+        #floating-search-navigator {
+            position: absolute;
+            display: none;
+            align-items: center;
+            gap: 4px;
+            background: rgba(26, 54, 93, 0.95);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+            z-index: 1000;
+            transform: translate(-50%, -125%);
+            user-select: none;
+        }
+        .float-nav-btn { background: rgba(255, 255, 255, 0.2); border: none; color: white; width: 24px; height: 24px; border-radius: 50%; cursor: pointer; font-size: 0.75rem; }
+        .float-nav-counter { font-size: 0.78rem; font-weight: 700; padding: 0 6px; }
+
+        /* TÉTEL BANNER ÉS MODUL */
+        .ppt-banner {
+            background: var(--banner-grad);
+            color: white;
+            padding: 1.15rem 1.6rem;
+            border-radius: 12px;
+            margin: 1.6rem 0 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.8rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.06);
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.2s ease;
+        }
+        .ppt-banner:hover { filter: brightness(1.08); transform: translateY(-1px); }
+        .ppt-banner h2 { font-size: 1.25rem; margin: 0; color: #fff !important; display: flex; align-items: center; gap: 0.8rem; }
+        .cat-pill-badge {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            color: #fff;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 0.2rem 0.65rem;
+            border-radius: 20px;
+            letter-spacing: 0.04em;
+            white-space: nowrap;
+        }
+        .collapse-icon { font-size: 1rem; transition: transform 0.3s ease; display: inline-block; }
+        .ppt-banner.collapsed .collapse-icon { transform: rotate(-90deg); }
+
+        .study-module { 
+            background: var(--card-bg); 
+            border-radius: 0 0 12px 12px; 
+            padding: 2rem; 
+            margin-bottom: 1.8rem; 
+            border: 1px solid var(--border); 
+            border-top: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.04); 
+            display: block;
+        }
+        .study-module.hidden { display: none !important; }
+
+        /* LAYER 1: 3 PERCES ELŐHÍVÓ VÁZLAT */
+        .layer1-summary-card {
+            background: var(--layer1-bg);
+            border: 1.5px solid var(--layer1-border);
+            border-left: 6px solid var(--layer1-border);
+            border-radius: 10px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 1.6rem;
+        }
+        .layer1-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.7rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .layer1-badge {
+            font-weight: 800;
+            font-size: 0.95rem;
+            color: var(--primary);
+            letter-spacing: 0.02em;
+        }
+        .layer-toggle-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--layer1-border);
+            color: var(--primary);
+            padding: 0.3rem 0.75rem;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .layer-toggle-btn:hover { background: var(--layer1-border); color: white; }
+        .layer1-body ul { margin-left: 1.3rem; }
+        .layer1-body li { margin-bottom: 0.35rem; font-size: 0.96rem; }
+
+        /* LAYER 2: MÉLY MAGYARÁZÓ KIDOLGOZÁS */
+        .layer2-deep-body.hidden-layer { display: none; }
+        .layer2-deep-body h3 { color: var(--primary); font-size: 1.2rem; margin: 1.4rem 0 0.6rem 0; border-bottom: 1.5px solid var(--border); padding-bottom: 0.3rem; }
+        .layer2-deep-body h4 { color: var(--primary-light); font-size: 1.05rem; margin: 1rem 0 0.4rem 0; }
+        .layer2-deep-body p { margin-bottom: 0.85rem; }
+        .layer2-deep-body ul, .layer2-deep-body ol { margin-left: 1.5rem; margin-bottom: 0.9rem; }
+        .layer2-deep-body li { margin-bottom: 0.4rem; }
+        .layer2-deep-body table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.94rem; }
+        .layer2-deep-body th, .layer2-deep-body td { border: 1px solid var(--border); padding: 0.65rem 0.8rem; text-align: left; }
+        .layer2-deep-body th { background: var(--bg); color: var(--primary); font-weight: 700; }
+
+        .mnemonic-box {
+            background: var(--mnemonic-bg);
+            border: 1px solid var(--mnemonic-border);
+            border-left: 5px solid var(--mnemonic-border);
+            border-radius: 8px;
+            padding: 0.95rem 1.2rem;
+            margin: 1rem 0;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="kj-logo" title="Katalógus megnyitása" onclick="openLecturesDrawer()">KJ</div>
+    <button class="theme-toggle-btn" id="theme-btn" onclick="toggleDarkMode()">🌙 Sötét mód</button>
+    <h1 id="app-title">Anatómia Szigorlat – Logikai Jegyzetrendszer</h1>
+    <p class="subtitle">1. Réteg: 3 perces logikai előhívó vázlat  |  2. Réteg: Mély, összefüggésekre építő kidolgozás</p>
+</header>
+
+<div class="container">
+    <div class="toggle-all-bar">
+        <div class="bar-group">
+            <button class="toggle-btn active-mode" id="cat-btn-all" onclick="filterByCategory('all')">📚 Összes</button>
+            <button class="toggle-btn" id="cat-btn-neuro" onclick="filterByCategory('neuro')">🧠 Neuro</button>
+            <button class="toggle-btn" id="cat-btn-fej-nyak" onclick="filterByCategory('fej-nyak')">🦷 Fej-nyak</button>
+            <button class="toggle-btn" id="cat-btn-zsigertan" onclick="filterByCategory('zsigertan')">🫀 Zsigertan</button>
+        </div>
+        <div class="bar-group">
+            <button class="toggle-btn" onclick="setAllModulesState(true)">➕ Mindent kinyit</button>
+            <button class="toggle-btn" onclick="setAllModulesState(false)">➖ Mindent összecsuk</button>
+            <button class="toggle-btn active-mode" id="btn-mode-both" onclick="setGlobalLayerMode('both')">📖 Teljes nézet</button>
+            <button class="toggle-btn" id="btn-mode-recall" onclick="setGlobalLayerMode('recall')">⚡ Csak 3 perces vázlat</button>
+        </div>
+    </div>
+
+    <div id="lecture-modules-container"></div>
+</div>
+
+<!-- JOBB OLDALI LEBEGŐ FÜLEK -->
+<div class="floating-side-triggers" id="floating-triggers-box">
+    <button class="side-trigger-btn" id="btn-open-search"><span>🔍</span> Keresés</button>
+    <button class="side-trigger-btn alt-btn" id="btn-open-lectures"><span>📑</span> Tételek</button>
+</div>
+
+<!-- OLDALSÓ KERESŐ DRAWER -->
+<div class="side-drawer-panel" id="drawer-search">
+    <div class="drawer-header">
+        <h4>🔍 Keresés a tételekben</h4>
+        <button class="drawer-close-btn" id="btn-close-search" title="Bezárás">×</button>
+    </div>
+    <div class="drawer-input-row">
+        <input type="text" id="lecture-search-input" placeholder="Latin vagy magyar kifejezés...">
+        <button class="toggle-btn" id="btn-clear-search">Törlés</button>
+    </div>
+    <div class="drawer-nav-bar">
+        <span id="search-counter" class="search-counter-badge">0 / 0 találat</span>
+        <div style="display:flex; gap:0.3rem;">
+            <button class="search-nav-btn" id="search-prev-btn" disabled>▲ Előző</button>
+            <button class="search-nav-btn" id="search-next-btn" disabled>▼ Következő</button>
+        </div>
+    </div>
+</div>
+
+<!-- OLDALSÓ TÉTELEK DRAWER -->
+<div class="side-drawer-panel" id="drawer-lectures">
+    <div class="drawer-header">
+        <h4>📑 Ugrás tételre</h4>
+        <button class="drawer-close-btn" id="btn-close-lectures" title="Bezárás">×</button>
+    </div>
+    <div class="drawer-scroll-area" id="compact-lecture-grid"></div>
+</div>
+
+<!-- LEBEGŐ LÉPTETŐ PANEL -->
+<div id="floating-search-navigator">
+    <button class="float-nav-btn" id="float-prev-btn" title="Előző találat">▲</button>
+    <span class="float-nav-counter" id="float-counter">1 / 1</span>
+    <button class="float-nav-btn" id="float-next-btn" title="Következő találat">▼</button>
+</div>
+
+<script>
+    window.TETELEK = [];
+    const FOLDERS = [
+        { id: 'neuro', label: '🧠 Neuro', badge: 'NEURO', order: 1 },
+        { id: 'fej-nyak', label: '🦷 Fej-nyak', badge: 'FEJ-NYAK', order: 2 },
+        { id: 'zsigertan', label: '🫀 Zsigertan', badge: 'ZSIGERTAN', order: 3 }
+    ];
+    const MAX_TETEL_COUNT = 100;
+    let currentCategoryFilter = 'all';
+
+    function loadAllTetelFiles() {
+        const loaders = [];
+        FOLDERS.forEach(folder => {
+            for (let i = 1; i <= MAX_TETEL_COUNT; i++) {
+                loaders.push(new Promise((resolve) => {
+                    const script = document.createElement('script');
+                    script.src = `${folder.id}/tetel${i}.js`;
+                    script.onload = () => {
+                        window.TETELEK.forEach(item => {
+                            if (!item._tagged) {
+                                item._tagged = true;
+                                item.category = folder.id;
+                                if (typeof item.num !== 'number') {
+                                    item.num = i;
+                                }
+                                item.uid = `${folder.id}-${item.id || 'tetel-' + i}`;
+                            }
+                        });
+                        resolve();
+                    };
+                    script.onerror = () => resolve();
+                    document.body.appendChild(script);
+                }));
+            }
+        });
+        return Promise.all(loaders);
+    }
+
+    function toggleDarkMode() {
+        const isDark = document.body.classList.toggle('dark-theme');
+        const btn = document.getElementById('theme-btn');
+        if (isDark) {
+            btn.textContent = '☀️ Világos mód';
+            localStorage.setItem('anat_theme_mode', 'dark');
+        } else {
+            btn.textContent = '🌙 Sötét mód';
+            localStorage.setItem('anat_theme_mode', 'light');
+        }
+    }
+
+    function initTheme() {
+        if (localStorage.getItem('anat_theme_mode') === 'dark') {
+            document.body.classList.add('dark-theme');
+            document.getElementById('theme-btn').textContent = '☀️ Világos mód';
+        }
+    }
+
+    function extractTetelNumber(mod, fallbackIdx) {
+        if (typeof mod.num === 'number') return mod.num;
+        const idMatch = (mod.id || '').match(/(\d+)/);
+        if (idMatch) return parseInt(idMatch[1], 10);
+        const titleMatch = (mod.title || '').match(/^(\d+)/);
+        if (titleMatch) return parseInt(titleMatch[1], 10);
+        return fallbackIdx + 1;
+    }
+
+    function getFolderMeta(catId) {
+        return FOLDERS.find(f => f.id === catId) || { id: catId, label: catId, badge: (catId || '').toUpperCase(), order: 99 };
+    }
+
+    function initModules() {
+        const container = document.getElementById('lecture-modules-container');
+        const drawerArea = document.getElementById('compact-lecture-grid');
+        
+        container.innerHTML = '';
+        drawerArea.innerHTML = '';
+        
+        if (!window.TETELEK || window.TETELEK.length === 0) {
+            container.innerHTML = `
+                <div style="background:var(--card-bg); padding:2.2rem; border-radius:12px; border:1px solid var(--border); text-align:center;">
+                    <h3 style="color:var(--primary); margin-bottom:0.5rem;">Még nincs betöltött tétel a <code>neuro/</code>, <code>fej-nyak/</code> vagy <code>zsigertan/</code> mappákban</h3>
+                    <p style="color:var(--text-muted);">Mentsd el a kidolgozott fájlokat (pl. <code>tetel1.js</code>, <code>tetel2.js</code>) a megfelelő témakör mappájába!</p>
+                </div>`;
+            return;
+        }
+
+        window.TETELEK.sort((a, b) => {
+            const catDiff = getFolderMeta(a.category).order - getFolderMeta(b.category).order;
+            if (catDiff !== 0) return catDiff;
+            return extractTetelNumber(a, 0) - extractTetelNumber(b, 0);
+        });
+
+        document.getElementById('app-title').textContent = `Anatómia Szigorlat (${window.TETELEK.length} kidolgozott tétel)`;
+
+        const zeroBtn = document.createElement('button');
+        zeroBtn.className = 'compact-lecture-btn top-anchor-btn';
+        zeroBtn.textContent = '↑ Ugrás a lap tetejére';
+        zeroBtn.onclick = () => {
+            closeAllDrawers();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+        drawerArea.appendChild(zeroBtn);
+
+        const drawerGrids = {};
+        FOLDERS.forEach(folder => {
+            const itemsInFolder = window.TETELEK.filter(m => m.category === folder.id);
+            if (itemsInFolder.length > 0) {
+                const catHeader = document.createElement('div');
+                catHeader.className = 'drawer-cat-title';
+                catHeader.textContent = `${folder.label} (${itemsInFolder.length})`;
+                drawerArea.appendChild(catHeader);
+
+                const grid = document.createElement('div');
+                grid.className = 'compact-lecture-grid';
+                drawerArea.appendChild(grid);
+                drawerGrids[folder.id] = grid;
+            }
+        });
+
+        window.TETELEK.forEach((mod, idx) => {
+            const tNum = extractTetelNumber(mod, idx);
+            const uid = mod.uid || `${mod.category || 'tetel'}-${mod.id}`;
+            const folderMeta = getFolderMeta(mod.category);
+
+            const banner = document.createElement('div');
+            banner.className = 'ppt-banner';
+            banner.id = `banner-${uid}`;
+            banner.dataset.category = mod.category || '';
+            banner.innerHTML = `
+                <h2><span class="collapse-icon">▼</span> ${mod.title}</h2>
+                <span class="cat-pill-badge">${folderMeta.badge}</span>
+            `;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'study-module';
+            contentDiv.id = uid;
+            contentDiv.dataset.category = mod.category || '';
+
+            const summarySection = mod.summaryHtml ? `
+                <div class="layer1-summary-card">
+                    <div class="layer1-header">
+                        <span class="layer1-badge">⚡ 3 PERCES LOGIKAI ELŐHÍVÓ VÁZLAT</span>
+                        <button type="button" class="layer-toggle-btn" onclick="toggleSingleLayer2('${uid}', this)">👁️ Részletes magyarázat elrejtése</button>
+                    </div>
+                    <div class="layer1-body">${mod.summaryHtml}</div>
+                </div>
+            ` : '';
+
+            contentDiv.innerHTML = `
+                ${summarySection}
+                <div class="layer2-deep-body lecture-html-body" id="layer2-${uid}">${mod.html}</div>
+            `;
+
+            banner.onclick = () => {
+                const isHidden = contentDiv.classList.toggle('hidden');
+                banner.classList.toggle('collapsed', isHidden);
+            };
+
+            container.appendChild(banner);
+            container.appendChild(contentDiv);
+
+            const targetGrid = drawerGrids[mod.category];
+            if (targetGrid) {
+                const numBtn = document.createElement('button');
+                numBtn.className = 'compact-lecture-btn';
+                numBtn.textContent = `${tNum}.`;
+                numBtn.title = `${folderMeta.badge}: ${mod.title}`;
+                numBtn.onclick = () => jumpToLecture(uid, mod.category);
+                targetGrid.appendChild(numBtn);
+            }
+        });
+    }
+
+    function filterByCategory(cat) {
+        currentCategoryFilter = cat;
+        document.querySelectorAll('[id^="cat-btn-"]').forEach(btn => btn.classList.remove('active-mode'));
+        const activeBtn = document.getElementById(`cat-btn-${cat}`);
+        if (activeBtn) activeBtn.classList.add('active-mode');
+
+        if (!window.TETELEK) return;
+        window.TETELEK.forEach(mod => {
+            const uid = mod.uid || `${mod.category || 'tetel'}-${mod.id}`;
+            const banner = document.getElementById(`banner-${uid}`);
+            const content = document.getElementById(uid);
+            const show = (cat === 'all' || mod.category === cat);
+            if (banner) banner.style.display = show ? 'flex' : 'none';
+            if (content) {
+                if (show) content.classList.remove('hidden');
+                else content.classList.add('hidden');
+            }
+            if (banner && show) banner.classList.remove('collapsed');
+        });
+    }
+
+    function toggleSingleLayer2(uid, btn) {
+        const layer2 = document.getElementById(`layer2-${uid}`);
+        if (!layer2) return;
+        const isHidden = layer2.classList.toggle('hidden-layer');
+        btn.textContent = isHidden ? '📖 Részletes magyarázat megjelenítése' : '👁️ Részletes magyarázat elrejtése';
+    }
+
+    function setGlobalLayerMode(mode) {
+        const btnBoth = document.getElementById('btn-mode-both');
+        const btnRecall = document.getElementById('btn-mode-recall');
+
+        document.querySelectorAll('.layer2-deep-body').forEach(el => {
+            if (mode === 'recall') el.classList.add('hidden-layer');
+            else el.classList.remove('hidden-layer');
+        });
+
+        document.querySelectorAll('.layer-toggle-btn').forEach(btn => {
+            btn.textContent = (mode === 'recall') ? '📖 Részletes magyarázat megjelenítése' : '👁️ Részletes magyarázat elrejtése';
+        });
+
+        btnBoth.classList.toggle('active-mode', mode === 'both');
+        btnRecall.classList.toggle('active-mode', mode === 'recall');
+    }
+
+    function jumpToLecture(uid, modCategory) {
+        closeAllDrawers();
+        if (currentCategoryFilter !== 'all' && currentCategoryFilter !== modCategory) {
+            filterByCategory('all');
+        }
+        const banner = document.getElementById(`banner-${uid}`);
+        const content = document.getElementById(uid);
+        if (banner && content) {
+            banner.style.display = 'flex';
+            content.classList.remove('hidden');
+            banner.classList.remove('collapsed');
+            banner.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+
+    function openSearchDrawer() {
+        closeAllDrawers();
+        const drawer = document.getElementById('drawer-search');
+        drawer.classList.add('is-open');
+        setTimeout(() => document.getElementById('lecture-search-input').focus(), 150);
+    }
+
+    function openLecturesDrawer() {
+        closeAllDrawers();
+        document.getElementById('drawer-lectures').classList.add('is-open');
+    }
+
+    function closeAllDrawers() {
+        document.getElementById('drawer-search').classList.remove('is-open');
+        document.getElementById('drawer-lectures').classList.remove('is-open');
+    }
+
+    function setupSideDrawers() {
+        document.getElementById('btn-open-search').addEventListener('click', openSearchDrawer);
+        document.getElementById('btn-open-lectures').addEventListener('click', openLecturesDrawer);
+        document.getElementById('btn-close-search').addEventListener('click', closeAllDrawers);
+        document.getElementById('btn-close-lectures').addEventListener('click', closeAllDrawers);
+
+        document.getElementById('lecture-search-input').addEventListener('input', handleLectureSearch);
+        document.getElementById('lecture-search-input').addEventListener('keydown', handleSearchKey);
+        document.getElementById('btn-clear-search').addEventListener('click', clearLectureSearch);
+
+        document.getElementById('search-prev-btn').addEventListener('click', () => navigateMatch(-1));
+        document.getElementById('search-next-btn').addEventListener('click', () => navigateMatch(1));
+        document.getElementById('float-prev-btn').addEventListener('click', () => navigateMatch(-1));
+        document.getElementById('float-next-btn').addEventListener('click', () => navigateMatch(1));
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeAllDrawers();
+        });
+    }
+
+    let searchMatches = [];
+    let currentMatchIndex = -1;
+
+    function handleLectureSearch() {
+        const query = document.getElementById('lecture-search-input').value.trim();
+        searchMatches = [];
+        currentMatchIndex = -1;
+
+        if (!window.TETELEK) return;
+
+        window.TETELEK.forEach(mod => {
+            const uid = mod.uid || `${mod.category || 'tetel'}-${mod.id}`;
+            const banner = document.getElementById(`banner-${uid}`);
+            const body = document.querySelector(`#${uid} .lecture-html-body`);
+            if (!banner || !body) return;
+            body.innerHTML = mod.html;
+            const catVisible = (currentCategoryFilter === 'all' || mod.category === currentCategoryFilter);
+            banner.style.display = catVisible ? 'flex' : 'none';
+        });
+
+        if (!query) {
+            hideFloatingNavigator();
+            updateSearchNav();
+            filterByCategory(currentCategoryFilter);
+            return;
+        }
+
+        const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+
+        window.TETELEK.forEach(mod => {
+            const uid = mod.uid || `${mod.category || 'tetel'}-${mod.id}`;
+            const banner = document.getElementById(`banner-${uid}`);
+            const content = document.getElementById(uid);
+            const body = document.querySelector(`#${uid} .lecture-html-body`);
+            if (!banner || !content || !body) return;
+
+            const catAllowed = (currentCategoryFilter === 'all' || mod.category === currentCategoryFilter);
+            const text = (mod.title + " " + body.textContent).toLowerCase();
+            if (catAllowed && text.includes(query.toLowerCase())) {
+                banner.style.display = 'flex';
+                content.classList.remove('hidden');
+                banner.classList.remove('collapsed');
+                body.classList.remove('hidden-layer');
+                highlightInElement(body, regex);
+            } else {
+                banner.style.display = 'none';
+                content.classList.add('hidden');
+                banner.classList.add('collapsed');
+            }
+        });
+
+        searchMatches = Array.from(document.querySelectorAll('.search-match-highlight'));
+
+        if (searchMatches.length > 0) {
+            currentMatchIndex = 0;
+            scrollToMatch(0);
+        } else {
+            hideFloatingNavigator();
+        }
+
+        updateSearchNav();
+    }
+
+    function highlightInElement(node, regex) {
+        if (node.nodeType === 3) {
+            if (regex.test(node.nodeValue)) {
+                const span = document.createElement('span');
+                span.innerHTML = node.nodeValue.replace(regex, '<mark class="search-match-highlight">$1</mark>');
+                node.parentNode.replaceChild(span, node);
+            }
+        } else if (node.nodeType === 1 && node.childNodes && !/(script|style)/i.test(node.tagName)) {
+            for (let i = 0; i < node.childNodes.length; i++) {
+                highlightInElement(node.childNodes[i], regex);
+            }
+        }
+    }
+
+    function scrollToMatch(index) {
+        if (searchMatches.length === 0 || index < 0 || index >= searchMatches.length) return;
+        searchMatches.forEach(el => el.classList.remove('active-match'));
+        const target = searchMatches[index];
+        target.classList.add('active-match');
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        positionFloatingNavigator(target);
+    }
+
+    function positionFloatingNavigator(targetEl) {
+        const nav = document.getElementById('floating-search-navigator');
+        const rect = targetEl.getBoundingClientRect();
+        nav.style.display = 'flex';
+        nav.style.top = `${rect.top + window.scrollY - 8}px`;
+        nav.style.left = `${rect.left + window.scrollX + (rect.width / 2)}px`;
+        document.getElementById('float-counter').textContent = `${currentMatchIndex + 1} / ${searchMatches.length}`;
+    }
+
+    function hideFloatingNavigator() {
+        const nav = document.getElementById('floating-search-navigator');
+        if (nav) nav.style.display = 'none';
+    }
+
+    function navigateMatch(direction) {
+        if (searchMatches.length === 0) return;
+        currentMatchIndex += direction;
+        if (currentMatchIndex >= searchMatches.length) currentMatchIndex = 0;
+        else if (currentMatchIndex < 0) currentMatchIndex = searchMatches.length - 1;
+        scrollToMatch(currentMatchIndex);
+        updateSearchNav();
+    }
+
+    function updateSearchNav() {
+        const counter = document.getElementById('search-counter');
+        const prevBtn = document.getElementById('search-prev-btn');
+        const nextBtn = document.getElementById('search-next-btn');
+
+        if (searchMatches.length > 0) {
+            counter.textContent = `${currentMatchIndex + 1} / ${searchMatches.length} találat`;
+            prevBtn.disabled = false;
+            nextBtn.disabled = false;
+        } else {
+            counter.textContent = `0 / 0 találat`;
+            prevBtn.disabled = true;
+            nextBtn.disabled = true;
+            hideFloatingNavigator();
+        }
+    }
+
+    function handleSearchKey(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            navigateMatch(event.shiftKey ? -1 : 1);
+        }
+    }
+
+    function clearLectureSearch() {
+        document.getElementById('lecture-search-input').value = '';
+        searchMatches = [];
+        currentMatchIndex = -1;
+        hideFloatingNavigator();
+        updateSearchNav();
+
+        if (!window.TETELEK) return;
+        window.TETELEK.forEach(mod => {
+            const uid = mod.uid || `${mod.category || 'tetel'}-${mod.id}`;
+            const body = document.querySelector(`#${uid} .lecture-html-body`);
+            if (body) body.innerHTML = mod.html;
+        });
+        filterByCategory(currentCategoryFilter);
+    }
+
+    function setAllModulesState(open) {
+        document.querySelectorAll('.study-module').forEach(el => {
+            const cat = el.dataset.category;
+            if (currentCategoryFilter !== 'all' && cat !== currentCategoryFilter) return;
+            if (open) el.classList.remove('hidden');
+            else el.classList.add('hidden');
+        });
+        document.querySelectorAll('.ppt-banner').forEach(el => {
+            const cat = el.dataset.category;
+            if (currentCategoryFilter !== 'all' && cat !== currentCategoryFilter) return;
+            if (open) el.classList.remove('collapsed');
+            else el.classList.add('collapsed');
+        });
+    }
+
+    window.addEventListener('resize', () => {
+        if (currentMatchIndex >= 0 && searchMatches[currentMatchIndex]) {
+            positionFloatingNavigator(searchMatches[currentMatchIndex]);
+        }
+    });
+
+    window.onload = async () => {
+        initTheme();
+        setupSideDrawers();
+        await loadAllTetelFiles();
+        initModules();
+    };
+</script>
+
+</body>
+</html>
